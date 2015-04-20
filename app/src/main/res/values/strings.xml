@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TermProject</string>
+    <string name="title_activity_colour_names">ColourNames</string>
+    <string name="no_results">No Results</string>
+
+</resources>

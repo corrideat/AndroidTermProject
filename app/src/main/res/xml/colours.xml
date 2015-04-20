@@ -1,0 +1,1524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colours>
+    <colour name="Acid green" hue="65.000" saturation="0.860" value="0.750" />
+    <colour name="Aero" hue="206.000" saturation="0.470" value="0.910" />
+    <colour name="Aero blue" hue="151.000" saturation="0.210" value="1.000" />
+    <colour name="African violet" hue="288.000" saturation="0.310" value="0.750" />
+    <colour name="Air Force blue (RAF)" hue="204.000" saturation="0.450" value="0.660" />
+    <colour name="Air Force blue (USAF)" hue="220.000" saturation="1.000" value="0.560" />
+    <colour name="Air superiority blue" hue="205.000" saturation="0.410" value="0.760" />
+    <colour name="Alabama crimson" hue="346.000" saturation="1.000" value="0.690" />
+    <colour name="Alice blue" hue="208.000" saturation="0.060" value="1.000" />
+    <colour name="Alloy orange" hue="27.000" saturation="0.920" value="0.770" />
+    <colour name="Almond" hue="30.000" saturation="0.140" value="0.940" />
+    <colour name="Almond" hue="30.000" saturation="0.142" value="0.937" />
+    <colour name="Amaranth" hue="348.000" saturation="0.810" value="0.900" />
+    <colour name="Amaranth deep purple" hue="342.000" saturation="0.770" value="0.670" />
+    <colour name="Amaranth pink" hue="338.000" saturation="0.350" value="0.950" />
+    <colour name="Amaranth purple" hue="342.000" saturation="0.770" value="0.670" />
+    <colour name="Amaranth red" hue="356.000" saturation="0.840" value="0.830" />
+    <colour name="Amazon" hue="147.000" saturation="0.520" value="0.480" />
+    <colour name="Amber" hue="45.000" saturation="1.000" value="1.000" />
+    <colour name="Amber (SAE/ECE)" hue="30.000" saturation="1.000" value="1.000" />
+    <colour name="American rose" hue="346.000" saturation="0.990" value="1.000" />
+    <colour name="Amethyst" hue="270.000" saturation="0.500" value="0.800" />
+    <colour name="Android green" hue="74.000" saturation="0.710" value="0.780" />
+    <colour name="Anti-flash white" hue="210.000" saturation="0.010" value="0.960" />
+    <colour name="Antique Brass" hue="21.818" saturation="0.429" value="0.804" />
+    <colour name="Antique brass" hue="22.000" saturation="0.430" value="0.800" />
+    <colour name="Antique bronze" hue="53.000" saturation="0.710" value="0.400" />
+    <colour name="Antique fuchsia" hue="316.000" saturation="0.370" value="0.570" />
+    <colour name="Antique ruby" hue="350.000" saturation="0.800" value="0.520" />
+    <colour name="Antique white" hue="34.000" saturation="0.140" value="0.980" />
+    <colour name="Ao (English)" hue="120.000" saturation="1.000" value="0.500" />
+    <colour name="Apple green" hue="74.000" saturation="1.000" value="0.710" />
+    <colour name="Apricot" hue="24.000" saturation="0.290" value="0.980" />
+    <colour name="Apricot" hue="30.000" saturation="0.285" value="0.992" />
+    <colour name="Aqua" hue="180.000" saturation="1.000" value="1.000" />
+    <colour name="Aquamarine" hue="160.000" saturation="0.500" value="1.000" />
+    <colour name="Aquamarine" hue="183.962" saturation="0.469" value="0.886" />
+    <colour name="Arctic lime" hue="72.000" saturation="0.920" value="1.000" />
+    <colour name="Army green" hue="69.000" saturation="0.610" value="0.330" />
+    <colour name="Arsenic" hue="206.000" saturation="0.210" value="0.290" />
+    <colour name="Artichoke" hue="76.000" saturation="0.200" value="0.590" />
+    <colour name="Arylide yellow" hue="51.000" saturation="0.540" value="0.910" />
+    <colour name="Ash grey" hue="135.000" saturation="0.060" value="0.750" />
+    <colour name="Asparagus" hue="60.000" saturation="0.367" value="0.663" />
+    <colour name="Asparagus" hue="93.000" saturation="0.370" value="0.660" />
+    <colour name="Atomic tangerine" hue="20.000" saturation="0.600" value="1.000" />
+    <colour name="Atomic Tangerine" hue="20.719" saturation="0.545" value="1.000" />
+    <colour name="Auburn" hue="0.000" saturation="0.750" value="0.650" />
+    <colour name="Aureolin" hue="56.000" saturation="1.000" value="0.990" />
+    <colour name="AuroMetalSaurus" hue="183.000" saturation="0.140" value="0.500" />
+    <colour name="Avocado" hue="81.000" saturation="0.980" value="0.510" />
+    <colour name="Azure" hue="210.000" saturation="1.000" value="1.000" />
+    <colour name="Azureish white" hue="206.000" saturation="0.100" value="0.960" />
+    <colour name="Azure mist" hue="180.000" saturation="0.060" value="1.000" />
+    <colour name="Azure (web color)" hue="180.000" saturation="0.060" value="1.000" />
+    <colour name="Baby blue" hue="199.000" saturation="0.430" value="0.940" />
+    <colour name="Baby blue eyes" hue="209.000" saturation="0.330" value="0.950" />
+    <colour name="Baby pink" hue="0.000" saturation="0.200" value="0.960" />
+    <colour name="Baby powder" hue="60.000" saturation="0.020" value="1.000" />
+    <colour name="Baker-Miller pink" hue="344.000" saturation="0.430" value="1.000" />
+    <colour name="Ball blue" hue="192.000" saturation="0.840" value="0.800" />
+    <colour name="Banana Mania" hue="43.000" saturation="0.280" value="0.980" />
+    <colour name="Banana Mania" hue="43.478" saturation="0.276" value="0.980" />
+    <colour name="Banana yellow" hue="51.000" saturation="0.790" value="1.000" />
+    <colour name="Bangladesh green" hue="164.000" saturation="1.000" value="0.420" />
+    <colour name="Barbie pink" hue="327.000" saturation="0.850" value="0.880" />
+    <colour name="Barn red" hue="4.000" saturation="0.980" value="0.490" />
+    <colour name="Battleship grey" hue="60.000" saturation="0.020" value="0.520" />
+    <colour name="Bazaar" hue="353.000" saturation="0.220" value="0.600" />
+    <colour name="B'dazzled blue" hue="215.000" saturation="0.690" value="0.580" />
+    <colour name="Beau blue" hue="206.000" saturation="0.180" value="0.900" />
+    <colour name="Beaver" hue="21.702" saturation="0.296" value="0.624" />
+    <colour name="Beaver" hue="22.000" saturation="0.300" value="0.620" />
+    <colour name="Beige" hue="60.000" saturation="0.100" value="0.960" />
+    <colour name="Big dip o’ruby" hue="345.000" saturation="0.760" value="0.610" />
+    <colour name="びろうど (Birōdo)" hue="90.000" saturation="0.514" value="0.275" />
+    <colour name="Bisque" hue="33.000" saturation="0.230" value="1.000" />
+    <colour name="Bistre" hue="24.000" saturation="0.490" value="0.240" />
+    <colour name="Bistre brown" hue="43.000" saturation="0.850" value="0.590" />
+    <colour name="Bitter lemon" hue="66.000" saturation="0.940" value="0.880" />
+    <colour name="Bitter lime" hue="75.000" saturation="1.000" value="1.000" />
+    <colour name="Bittersweet" hue="5.874" saturation="0.565" value="0.992" />
+    <colour name="Bittersweet" hue="6.000" saturation="0.630" value="1.000" />
+    <colour name="Bittersweet shimmer" hue="359.000" saturation="0.590" value="0.750" />
+    <colour name="Black" hue="0.000" saturation="0.000" value="0.000" />
+    <colour name="Black bean" hue="10.000" saturation="0.970" value="0.240" />
+    <colour name="Black leather jacket" hue="135.000" saturation="0.300" value="0.210" />
+    <colour name="Black olive" hue="70.000" saturation="0.100" value="0.240" />
+    <colour name="Blanched almond" hue="36.000" saturation="0.200" value="1.000" />
+    <colour name="Blast-off bronze" hue="12.000" saturation="0.390" value="0.650" />
+    <colour name="Bleu de France" hue="210.000" saturation="0.790" value="0.910" />
+    <colour name="Blizzard Blue" hue="188.000" saturation="0.280" value="0.930" />
+    <colour name="Blond" hue="50.000" saturation="0.240" value="0.980" />
+    <colour name="Blue" hue="216.861" saturation="0.878" value="0.996" />
+    <colour name="Blue" hue="240.000" saturation="1.000" value="1.000" />
+    <colour name="Blue Bell" hue="240.000" saturation="0.220" value="0.820" />
+    <colour name="Blue Bell" hue="240.000" saturation="0.221" value="0.816" />
+    <colour name="Blueberry" hue="220.000" saturation="0.680" value="0.970" />
+    <colour name="Bluebonnet" hue="240.000" saturation="0.880" value="0.940" />
+    <colour name="Blue (Crayola)" hue="217.000" saturation="0.880" value="1.000" />
+    <colour name="Blue-gray" hue="210.000" saturation="0.500" value="0.800" />
+    <colour name="Blue Green" hue="191.792" saturation="0.930" value="0.729" />
+    <colour name="Blue-green" hue="192.000" saturation="0.930" value="0.730" />
+    <colour name="Blue Lagoon" hue="193.000" saturation="0.410" value="0.630" />
+    <colour name="Blue-magenta violet" hue="261.000" saturation="0.640" value="0.570" />
+    <colour name="Blue (Munsell)" hue="190.000" saturation="1.000" value="0.690" />
+    <colour name="Blue (NCS)" hue="197.000" saturation="1.000" value="0.740" />
+    <colour name="Blue (Pantone)" hue="231.000" saturation="1.000" value="0.660" />
+    <colour name="Blue (pigment)" hue="240.000" saturation="0.670" value="0.600" />
+    <colour name="Blue (RYB)" hue="224.000" saturation="0.990" value="1.000" />
+    <colour name="Blue sapphire" hue="197.000" saturation="0.860" value="0.500" />
+    <colour name="Blue Violet" hue="248.966" saturation="0.460" value="0.741" />
+    <colour name="Blue-violet" hue="271.000" saturation="0.810" value="0.890" />
+    <colour name="Blue yonder" hue="217.000" saturation="0.520" value="0.650" />
+    <colour name="Blush" hue="342.000" saturation="0.580" value="0.870" />
+    <colour name="Blush" hue="342.326" saturation="0.581" value="0.871" />
+    <colour name="Bole" hue="9.000" saturation="0.510" value="0.470" />
+    <colour name="Bondi blue" hue="191.000" saturation="1.000" value="0.710" />
+    <colour name="Bone" hue="39.000" saturation="0.110" value="0.890" />
+    <colour name="Boston University Red" hue="0.000" saturation="1.000" value="0.800" />
+    <colour name="Bottle green" hue="164.000" saturation="1.000" value="0.420" />
+    <colour name="Boysenberry" hue="328.000" saturation="0.630" value="0.530" />
+    <colour name="Brandeis blue" hue="214.000" saturation="1.000" value="1.000" />
+    <colour name="Brass" hue="52.000" saturation="0.640" value="0.710" />
+    <colour name="Brick Red" hue="351.739" saturation="0.680" value="0.796" />
+    <colour name="Brick red" hue="352.000" saturation="0.680" value="0.800" />
+    <colour name="Bright cerulean" hue="194.000" saturation="0.860" value="0.840" />
+    <colour name="Bright green" hue="96.000" saturation="1.000" value="1.000" />
+    <colour name="Bright lavender" hue="272.000" saturation="0.350" value="0.890" />
+    <colour name="Bright lilac" hue="285.000" saturation="0.390" value="0.940" />
+    <colour name="Bright maroon" hue="346.000" saturation="0.830" value="0.760" />
+    <colour name="Bright navy blue" hue="210.000" saturation="0.880" value="0.820" />
+    <colour name="Bright pink" hue="330.000" saturation="1.000" value="1.000" />
+    <colour name="Bright turquoise" hue="177.000" saturation="0.970" value="0.910" />
+    <colour name="Bright ube" hue="281.000" saturation="0.310" value="0.910" />
+    <colour name="Brilliant azure" hue="210.000" saturation="0.800" value="1.000" />
+    <colour name="Brilliant lavender" hue="290.000" saturation="0.270" value="1.000" />
+    <colour name="Brilliant rose" hue="332.000" saturation="0.670" value="1.000" />
+    <colour name="Brink pink" hue="348.000" saturation="0.620" value="0.980" />
+    <colour name="British racing green" hue="154.000" saturation="1.000" value="0.260" />
+    <colour name="Bronze" hue="30.000" saturation="0.760" value="0.800" />
+    <colour name="Bronze Yellow" hue="58.000" saturation="1.000" value="0.450" />
+    <colour name="Brown" hue="15.146" saturation="0.572" value="0.706" />
+    <colour name="Brown-nose" hue="28.000" saturation="0.670" value="0.420" />
+    <colour name="Brown (traditional)" hue="30.000" saturation="1.000" value="0.590" />
+    <colour name="Brown (web)" hue="0.000" saturation="0.750" value="0.650" />
+    <colour name="Brown Yellow" hue="30.000" saturation="0.500" value="0.800" />
+    <colour name="Brunswick green" hue="162.000" saturation="0.650" value="0.300" />
+    <colour name="Bubble gum" hue="349.000" saturation="0.240" value="1.000" />
+    <colour name="Bubbles" hue="183.000" saturation="0.090" value="1.000" />
+    <colour name="Bud green" hue="102.000" saturation="0.470" value="0.710" />
+    <colour name="Buff" hue="49.000" saturation="0.460" value="0.940" />
+    <colour name="Bulgarian rose" hue="359.000" saturation="0.920" value="0.280" />
+    <colour name="Burgundy" hue="345.000" saturation="1.000" value="0.500" />
+    <colour name="Burlywood" hue="34.000" saturation="0.390" value="0.870" />
+    <colour name="Burnt Orange" hue="17.802" saturation="0.714" value="1.000" />
+    <colour name="Burnt orange" hue="25.000" saturation="1.000" value="0.800" />
+    <colour name="Burnt sienna" hue="14.000" saturation="0.650" value="0.910" />
+    <colour name="Burnt Sienna" hue="14.043" saturation="0.603" value="0.918" />
+    <colour name="Burnt umber" hue="9.000" saturation="0.740" value="0.540" />
+    <colour name="Byzantine" hue="311.000" saturation="0.730" value="0.740" />
+    <colour name="Byzantium" hue="311.000" saturation="0.630" value="0.440" />
+    <colour name="Cadet" hue="199.000" saturation="0.270" value="0.450" />
+    <colour name="Cadet blue" hue="182.000" saturation="0.410" value="0.630" />
+    <colour name="Cadet Blue" hue="220.909" saturation="0.111" value="0.776" />
+    <colour name="Cadet grey" hue="205.000" saturation="0.180" value="0.690" />
+    <colour name="Cadmium green" hue="154.000" saturation="1.000" value="0.420" />
+    <colour name="Cadmium orange" hue="28.000" saturation="0.810" value="0.930" />
+    <colour name="Cadmium red" hue="351.000" saturation="1.000" value="0.890" />
+    <colour name="Cadmium yellow" hue="58.000" saturation="1.000" value="1.000" />
+    <colour name="Café au lait" hue="26.000" saturation="0.450" value="0.650" />
+    <colour name="Café noir" hue="30.000" saturation="0.560" value="0.290" />
+    <colour name="Cal Poly green" hue="137.000" saturation="0.610" value="0.300" />
+    <colour name="Cambridge Blue" hue="140.000" saturation="0.160" value="0.760" />
+    <colour name="Camel" hue="33.000" saturation="0.450" value="0.760" />
+    <colour name="Cameo pink" hue="340.000" saturation="0.220" value="0.940" />
+    <colour name="Camouflage green" hue="91.000" saturation="0.200" value="0.530" />
+    <colour name="Canary" hue="60.000" saturation="0.400" value="1.000" />
+    <colour name="Canary yellow" hue="56.000" saturation="1.000" value="1.000" />
+    <colour name="Candy apple red" hue="2.000" saturation="1.000" value="1.000" />
+    <colour name="Candy pink" hue="355.000" saturation="0.500" value="0.890" />
+    <colour name="Capri" hue="195.000" saturation="1.000" value="1.000" />
+    <colour name="Caput mortuum" hue="7.000" saturation="0.640" value="0.350" />
+    <colour name="Cardinal" hue="350.000" saturation="0.850" value="0.770" />
+    <colour name="Caribbean Green" hue="105.000" saturation="1.000" value="0.800" />
+    <colour name="Caribbean green" hue="165.000" saturation="1.000" value="0.800" />
+    <colour name="Carmine" hue="350.000" saturation="1.000" value="0.590" />
+    <colour name="Carmine (M&amp;P)" hue="342.000" saturation="1.000" value="0.840" />
+    <colour name="Carmine pink" hue="4.000" saturation="0.720" value="0.920" />
+    <colour name="Carmine red" hue="347.000" saturation="1.000" value="1.000" />
+    <colour name="Carnation Pink" hue="336.000" saturation="0.333" value="1.000" />
+    <colour name="Carnation pink" hue="336.000" saturation="0.350" value="1.000" />
+    <colour name="Carnelian" hue="0.000" saturation="0.850" value="0.700" />
+    <colour name="Carolina blue" hue="204.000" saturation="0.590" value="0.830" />
+    <colour name="Carrot orange" hue="33.000" saturation="0.860" value="0.930" />
+    <colour name="Castleton green" hue="164.000" saturation="1.000" value="0.340" />
+    <colour name="Catalina blue" hue="221.000" saturation="0.950" value="0.470" />
+    <colour name="Catawba" hue="348.000" saturation="0.520" value="0.440" />
+    <colour name="Cedar Chest" hue="8.000" saturation="0.640" value="0.790" />
+    <colour name="Ceil" hue="225.000" saturation="0.290" value="0.810" />
+    <colour name="Celadon" hue="123.000" saturation="0.240" value="0.880" />
+    <colour name="Celadon blue" hue="196.000" saturation="1.000" value="0.650" />
+    <colour name="Celadon green" hue="174.000" saturation="0.640" value="0.520" />
+    <colour name="Celeste" hue="180.000" saturation="0.300" value="1.000" />
+    <colour name="Celestial blue" hue="205.000" saturation="0.650" value="0.820" />
+    <colour name="Cerise" hue="329.412" saturation="0.692" value="0.867" />
+    <colour name="Cerise" hue="343.000" saturation="0.780" value="0.870" />
+    <colour name="Cerise pink" hue="336.000" saturation="0.750" value="0.930" />
+    <colour name="Cerulean" hue="193.622" saturation="0.864" value="0.839" />
+    <colour name="Cerulean" hue="196.000" saturation="1.000" value="0.650" />
+    <colour name="Cerulean blue" hue="224.000" saturation="0.780" value="0.750" />
+    <colour name="Cerulean frost" hue="208.000" saturation="0.440" value="0.760" />
+    <colour name="CG Blue" hue="196.000" saturation="1.000" value="0.650" />
+    <colour name="CG Red" hue="4.000" saturation="0.780" value="0.880" />
+    <colour name="Chamoisee" hue="26.000" saturation="0.440" value="0.630" />
+    <colour name="Champagne" hue="37.000" saturation="0.170" value="0.970" />
+    <colour name="Charcoal" hue="204.000" saturation="0.320" value="0.310" />
+    <colour name="Charleston green" hue="180.000" saturation="0.190" value="0.170" />
+    <colour name="Charm pink" hue="340.000" saturation="0.380" value="0.900" />
+    <colour name="Chartreuse (traditional)" hue="68.000" saturation="1.000" value="1.000" />
+    <colour name="Chartreuse (web)" hue="90.000" saturation="1.000" value="1.000" />
+    <colour name="Cherry" hue="343.000" saturation="0.780" value="0.870" />
+    <colour name="Cherry blossom pink" hue="348.000" saturation="0.280" value="1.000" />
+    <colour name="Chestnut" hue="10.000" saturation="0.640" value="0.580" />
+    <colour name="Chestnut" hue="3.000" saturation="0.532" value="0.737" />
+    <colour name="China pink" hue="333.000" saturation="0.500" value="0.870" />
+    <colour name="China rose" hue="340.000" saturation="0.520" value="0.660" />
+    <colour name="Chinese red" hue="11.000" saturation="0.820" value="0.670" />
+    <colour name="Chinese violet" hue="296.000" saturation="0.290" value="0.530" />
+    <colour name="Chocolate (traditional)" hue="31.000" saturation="1.000" value="0.480" />
+    <colour name="Chocolate (web)" hue="25.000" saturation="0.860" value="0.820" />
+    <colour name="Chrome yellow" hue="39.000" saturation="1.000" value="1.000" />
+    <colour name="Cinereous" hue="12.000" saturation="0.190" value="0.600" />
+    <colour name="Cinnabar" hue="5.000" saturation="0.770" value="0.890" />
+    <colour name="Cinnamon[citation needed]" hue="25.000" saturation="0.860" value="0.820" />
+    <colour name="Citrine" hue="54.000" saturation="0.960" value="0.890" />
+    <colour name="Citron" hue="64.000" saturation="0.820" value="0.660" />
+    <colour name="Claret" hue="343.000" saturation="0.820" value="0.500" />
+    <colour name="Classic rose" hue="326.000" saturation="0.190" value="0.980" />
+    <colour name="Cobalt Blue" hue="215.000" saturation="1.000" value="0.670" />
+    <colour name="Cocoa brown" hue="25.000" saturation="0.860" value="0.820" />
+    <colour name="Coconut" hue="19.000" saturation="0.590" value="0.590" />
+    <colour name="Coffee" hue="25.000" saturation="0.500" value="0.440" />
+    <colour name="Columbia Blue" hue="200.000" saturation="0.130" value="0.890" />
+    <colour name="Congo pink" hue="5.000" saturation="0.510" value="0.970" />
+    <colour name="Cool Black" hue="212.000" saturation="1.000" value="0.380" />
+    <colour name="Cool grey" hue="229.000" saturation="0.190" value="0.670" />
+    <colour name="Copper" hue="17.885" saturation="0.471" value="0.867" />
+    <colour name="Copper" hue="29.000" saturation="0.720" value="0.720" />
+    <colour name="Copper (Crayola)" hue="18.000" saturation="0.530" value="0.850" />
+    <colour name="Copper penny" hue="5.000" saturation="0.390" value="0.680" />
+    <colour name="Copper red" hue="14.000" saturation="0.600" value="0.800" />
+    <colour name="Copper rose" hue="0.000" saturation="0.330" value="0.600" />
+    <colour name="Coquelicot" hue="13.000" saturation="1.000" value="1.000" />
+    <colour name="Coral" hue="16.000" saturation="0.690" value="1.000" />
+    <colour name="Coral pink" hue="5.000" saturation="0.510" value="0.970" />
+    <colour name="Coral red" hue="0.000" saturation="0.750" value="1.000" />
+    <colour name="Cordovan" hue="355.000" saturation="0.540" value="0.540" />
+    <colour name="Corn" hue="54.000" saturation="0.630" value="0.980" />
+    <colour name="Cornell Red" hue="0.000" saturation="0.850" value="0.700" />
+    <colour name="Cornflower" hue="201.481" saturation="0.345" value="0.922" />
+    <colour name="Cornflower blue" hue="219.000" saturation="0.580" value="0.930" />
+    <colour name="Cornsilk" hue="48.000" saturation="0.140" value="1.000" />
+    <colour name="Cosmic latte" hue="43.000" saturation="0.090" value="1.000" />
+    <colour name="Cotton candy" hue="334.000" saturation="0.260" value="1.000" />
+    <colour name="Cotton Candy" hue="334.030" saturation="0.263" value="1.000" />
+    <colour name="Coyote brown" hue="62.000" saturation="0.520" value="0.510" />
+    <colour name="Cream" hue="57.000" saturation="0.180" value="1.000" />
+    <colour name="Crimson" hue="348.000" saturation="0.910" value="0.860" />
+    <colour name="Crimson glory" hue="344.000" saturation="1.000" value="0.750" />
+    <colour name="Crimson red" hue="0.000" saturation="1.000" value="0.600" />
+    <colour name="Cyan" hue="180.000" saturation="1.000" value="1.000" />
+    <colour name="Cyan azure" hue="209.000" saturation="0.570" value="0.710" />
+    <colour name="Cyan-blue azure" hue="210.000" saturation="0.630" value="0.750" />
+    <colour name="Cyan cobalt blue" hue="215.000" saturation="0.740" value="0.610" />
+    <colour name="Cyan cornflower blue" hue="199.000" saturation="0.880" value="0.760" />
+    <colour name="Cyan (process)" hue="193.000" saturation="1.000" value="0.920" />
+    <colour name="Cyber grape" hue="263.000" saturation="0.470" value="0.490" />
+    <colour name="Cyber yellow" hue="50.000" saturation="1.000" value="1.000" />
+    <colour name="Daffodil" hue="60.000" saturation="0.810" value="1.000" />
+    <colour name="Dandelion" hue="45.833" saturation="0.569" value="0.992" />
+    <colour name="Dandelion" hue="55.000" saturation="0.800" value="0.940" />
+    <colour name="Dark blue" hue="240.000" saturation="1.000" value="0.550" />
+    <colour name="Dark blue-gray" hue="240.000" saturation="0.330" value="0.600" />
+    <colour name="Dark brown" hue="30.000" saturation="0.670" value="0.400" />
+    <colour name="Dark brown-tangelo" hue="24.000" saturation="0.430" value="0.530" />
+    <colour name="Dark byzantium" hue="315.000" saturation="0.390" value="0.360" />
+    <colour name="Dark candy apple red" hue="0.000" saturation="1.000" value="0.640" />
+    <colour name="Dark cerulean" hue="209.000" saturation="0.940" value="0.490" />
+    <colour name="Dark chestnut" hue="10.000" saturation="0.370" value="0.600" />
+    <colour name="Dark coral" hue="10.000" saturation="0.660" value="0.800" />
+    <colour name="Dark cyan" hue="180.000" saturation="1.000" value="0.550" />
+    <colour name="Dark electric blue" hue="206.000" saturation="0.310" value="0.470" />
+    <colour name="Dark goldenrod" hue="43.000" saturation="0.940" value="0.720" />
+    <colour name="Dark gray (X11)" hue="0.000" saturation="0.000" value="0.660" />
+    <colour name="Dark green" hue="158.000" saturation="0.980" value="0.200" />
+    <colour name="Dark green (X11)" hue="120.000" saturation="1.000" value="0.390" />
+    <colour name="Dark gunmetal" hue="202.000" saturation="0.260" value="0.160" />
+    <colour name="Dark imperial blue" hue="183.000" saturation="1.000" value="0.400" />
+    <colour name="Dark imperial blue" hue="203.000" saturation="1.000" value="0.420" />
+    <colour name="Dark jungle green" hue="162.000" saturation="0.280" value="0.140" />
+    <colour name="Dark khaki" hue="56.000" saturation="0.430" value="0.740" />
+    <colour name="Dark lava" hue="27.000" saturation="0.310" value="0.280" />
+    <colour name="Dark lavender" hue="270.000" saturation="0.470" value="0.590" />
+    <colour name="Dark liver" hue="330.000" saturation="0.100" value="0.330" />
+    <colour name="Dark liver (horses)" hue="12.000" saturation="0.350" value="0.330" />
+    <colour name="Dark magenta" hue="300.000" saturation="1.000" value="0.550" />
+    <colour name="Dark medium gray" hue="0.000" saturation="0.000" value="0.660" />
+    <colour name="Dark midnight blue" hue="210.000" saturation="1.000" value="0.400" />
+    <colour name="Dark moss green" hue="80.000" saturation="0.620" value="0.360" />
+    <colour name="Dark olive green" hue="82.000" saturation="0.560" value="0.420" />
+    <colour name="Dark orange" hue="33.000" saturation="1.000" value="1.000" />
+    <colour name="Dark orchid" hue="280.000" saturation="0.750" value="0.800" />
+    <colour name="Dark pastel blue" hue="212.000" saturation="0.410" value="0.800" />
+    <colour name="Dark pastel green" hue="138.000" saturation="0.980" value="0.750" />
+    <colour name="Dark pastel purple" hue="263.000" saturation="0.480" value="0.840" />
+    <colour name="Dark pastel red" hue="9.000" saturation="0.820" value="0.760" />
+    <colour name="Dark pink" hue="342.000" saturation="0.640" value="0.910" />
+    <colour name="Dark powder blue" hue="220.000" saturation="1.000" value="0.600" />
+    <colour name="Dark puce" hue="354.000" saturation="0.270" value="0.310" />
+    <colour name="Dark purple" hue="291.000" saturation="0.510" value="0.200" />
+    <colour name="Dark raspberry" hue="330.000" saturation="0.720" value="0.530" />
+    <colour name="Dark red" hue="0.000" saturation="1.000" value="0.550" />
+    <colour name="Dark salmon" hue="15.000" saturation="0.480" value="0.910" />
+    <colour name="Dark scarlet" hue="344.000" saturation="0.970" value="0.340" />
+    <colour name="Dark sea green" hue="120.000" saturation="0.240" value="0.740" />
+    <colour name="Dark sienna" hue="0.000" saturation="0.670" value="0.240" />
+    <colour name="Dark sky blue" hue="199.000" saturation="0.350" value="0.840" />
+    <colour name="Dark slate blue" hue="248.000" saturation="0.560" value="0.550" />
+    <colour name="Dark slate gray" hue="180.000" saturation="0.410" value="0.310" />
+    <colour name="Dark spring green" hue="150.000" saturation="0.800" value="0.450" />
+    <colour name="Dark tan" hue="45.000" saturation="0.440" value="0.570" />
+    <colour name="Dark tangerine" hue="38.000" saturation="0.930" value="1.000" />
+    <colour name="Dark taupe" hue="27.000" saturation="0.310" value="0.280" />
+    <colour name="Dark terra cotta" hue="353.000" saturation="0.620" value="0.800" />
+    <colour name="Dark turquoise" hue="181.000" saturation="1.000" value="0.820" />
+    <colour name="Dark vanilla" hue="32.000" saturation="0.200" value="0.820" />
+    <colour name="Dark violet" hue="282.000" saturation="1.000" value="0.830" />
+    <colour name="Dark yellow" hue="52.000" saturation="0.920" value="0.610" />
+    <colour name="Dartmouth green" hue="152.000" saturation="1.000" value="0.440" />
+    <colour name="Davy's grey" hue="0.000" saturation="0.000" value="0.330" />
+    <colour name="Debian red" hue="339.000" saturation="0.950" value="0.840" />
+    <colour name="Deep aquamarine" hue="161.000" saturation="0.510" value="0.510" />
+    <colour name="Deep carmine" hue="347.000" saturation="0.810" value="0.660" />
+    <colour name="Deep carmine pink" hue="357.000" saturation="0.800" value="0.940" />
+    <colour name="Deep carrot orange" hue="19.000" saturation="0.810" value="0.910" />
+    <colour name="Deep cerise" hue="330.000" saturation="0.770" value="0.850" />
+    <colour name="Deep champagne" hue="35.000" saturation="0.340" value="0.980" />
+    <colour name="Deep chestnut" hue="3.000" saturation="0.610" value="0.730" />
+    <colour name="Deep coffee" hue="1.000" saturation="0.420" value="0.440" />
+    <colour name="Deep fuchsia" hue="300.000" saturation="0.560" value="0.760" />
+    <colour name="Deep Green" hue="122.000" saturation="0.950" value="0.400" />
+    <colour name="Deep green-cyan turquoise" hue="165.000" saturation="0.890" value="0.490" />
+    <colour name="Deep jungle green" hue="178.000" saturation="1.000" value="0.290" />
+    <colour name="Deep koamaru" hue="240.000" saturation="0.500" value="0.400" />
+    <colour name="Deep lemon" hue="47.000" saturation="0.890" value="0.960" />
+    <colour name="Deep lilac" hue="280.000" saturation="0.550" value="0.730" />
+    <colour name="Deep magenta" hue="300.000" saturation="1.000" value="0.800" />
+    <colour name="Deep maroon" hue="0.000" saturation="1.000" value="0.510" />
+    <colour name="Deep mauve" hue="300.000" saturation="0.460" value="0.830" />
+    <colour name="Deep moss green" hue="129.000" saturation="0.440" value="0.370" />
+    <colour name="Deep peach" hue="26.000" saturation="0.360" value="1.000" />
+    <colour name="Deep pink" hue="328.000" saturation="0.920" value="1.000" />
+    <colour name="Deep puce" hue="351.000" saturation="0.460" value="0.660" />
+    <colour name="Deep Red" hue="0.000" saturation="0.990" value="0.520" />
+    <colour name="Deep ruby" hue="336.000" saturation="0.520" value="0.520" />
+    <colour name="Deep saffron" hue="30.000" saturation="0.800" value="1.000" />
+    <colour name="Deep sky blue" hue="195.000" saturation="1.000" value="1.000" />
+    <colour name="Deep Space Sparkle" hue="194.000" saturation="0.310" value="0.420" />
+    <colour name="Deep spring bud" hue="82.000" saturation="0.560" value="0.420" />
+    <colour name="Deep Taupe" hue="356.000" saturation="0.250" value="0.490" />
+    <colour name="Deep Tuscan red" hue="342.000" saturation="0.350" value="0.400" />
+    <colour name="Deep violet" hue="270.000" saturation="1.000" value="0.400" />
+    <colour name="Deer" hue="28.000" saturation="0.520" value="0.730" />
+    <colour name="Denim" hue="213.000" saturation="0.890" value="0.740" />
+    <colour name="Denim" hue="214.510" saturation="0.781" value="0.769" />
+    <colour name="Desaturated cyan" hue="180.000" saturation="0.330" value="0.600" />
+    <colour name="Desert" hue="33.000" saturation="0.450" value="0.760" />
+    <colour name="Desert Sand" hue="22.909" saturation="0.230" value="0.937" />
+    <colour name="Desert sand" hue="25.000" saturation="0.260" value="0.930" />
+    <colour name="Desire" hue="352.000" saturation="0.740" value="0.920" />
+    <colour name="Diamond" hue="191.000" saturation="0.270" value="1.000" />
+    <colour name="Dim gray" hue="0.000" saturation="0.000" value="0.410" />
+    <colour name="Dirt" hue="29.000" saturation="0.460" value="0.610" />
+    <colour name="Dodger blue" hue="210.000" saturation="0.880" value="1.000" />
+    <colour name="Dogwood rose" hue="335.000" saturation="0.890" value="0.840" />
+    <colour name="Dollar bill" hue="98.000" saturation="0.460" value="0.730" />
+    <colour name="Donkey brown" hue="35.000" saturation="0.610" value="0.400" />
+    <colour name="Drab" hue="43.000" saturation="0.850" value="0.590" />
+    <colour name="Duke blue" hue="240.000" saturation="1.000" value="0.610" />
+    <colour name="Dust storm" hue="6.000" saturation="0.120" value="0.900" />
+    <colour name="Dutch white" hue="42.000" saturation="0.220" value="0.940" />
+    <colour name="Earth yellow" hue="34.000" saturation="0.580" value="0.880" />
+    <colour name="Ebony" hue="97.000" saturation="0.140" value="0.360" />
+    <colour name="Ecru" hue="45.000" saturation="0.340" value="0.760" />
+    <colour name="Eerie black" hue="0.000" saturation="0.000" value="0.110" />
+    <colour name="Eggplant" hue="328.966" saturation="0.264" value="0.431" />
+    <colour name="Eggplant" hue="329.000" saturation="0.340" value="0.380" />
+    <colour name="Eggshell" hue="46.000" saturation="0.110" value="0.940" />
+    <colour name="Egyptian blue" hue="226.000" saturation="0.900" value="0.650" />
+    <colour name="Electric blue" hue="183.000" saturation="0.510" value="1.000" />
+    <colour name="Electric crimson" hue="345.000" saturation="1.000" value="1.000" />
+    <colour name="Electric cyan" hue="180.000" saturation="1.000" value="1.000" />
+    <colour name="Electric green" hue="120.000" saturation="1.000" value="1.000" />
+    <colour name="Electric indigo" hue="266.000" saturation="1.000" value="1.000" />
+    <colour name="Electric lavender" hue="290.000" saturation="0.270" value="1.000" />
+    <colour name="Electric Lime" hue="60.000" saturation="0.886" value="1.000" />
+    <colour name="Electric lime" hue="72.000" saturation="1.000" value="1.000" />
+    <colour name="Electric purple" hue="285.000" saturation="1.000" value="1.000" />
+    <colour name="Electric ultramarine" hue="255.000" saturation="1.000" value="1.000" />
+    <colour name="Electric violet" hue="274.000" saturation="1.000" value="1.000" />
+    <colour name="Electric yellow" hue="60.000" saturation="0.800" value="1.000" />
+    <colour name="Emerald" hue="140.000" saturation="0.600" value="0.780" />
+    <colour name="Eminence" hue="284.000" saturation="0.630" value="0.510" />
+    <colour name="English green" hue="162.000" saturation="0.650" value="0.300" />
+    <colour name="English lavender" hue="338.000" saturation="0.270" value="0.710" />
+    <colour name="English red" hue="356.000" saturation="0.560" value="0.670" />
+    <colour name="English violet" hue="289.000" saturation="0.350" value="0.360" />
+    <colour name="Eton blue" hue="134.000" saturation="0.250" value="0.780" />
+    <colour name="Eucalyptus" hue="161.000" saturation="0.680" value="0.840" />
+    <colour name="Fallow" hue="33.000" saturation="0.450" value="0.760" />
+    <colour name="Falu red" hue="0.000" saturation="0.810" value="0.500" />
+    <colour name="Fandango" hue="320.000" saturation="0.720" value="0.710" />
+    <colour name="Fandango pink" hue="338.000" saturation="0.630" value="0.870" />
+    <colour name="Fashion fuchsia" hue="320.000" saturation="1.000" value="0.960" />
+    <colour name="Fawn" hue="30.000" saturation="0.510" value="0.900" />
+    <colour name="Feldgrau" hue="143.000" saturation="0.170" value="0.360" />
+    <colour name="Feldspar" hue="28.000" saturation="0.300" value="0.990" />
+    <colour name="Fern" hue="65.600" saturation="0.399" value="0.737" />
+    <colour name="Fern green" hue="106.000" saturation="0.450" value="0.470" />
+    <colour name="Ferrari Red" hue="9.000" saturation="1.000" value="1.000" />
+    <colour name="Field drab" hue="42.000" saturation="0.720" value="0.420" />
+    <colour name="Firebrick" hue="0.000" saturation="0.810" value="0.700" />
+    <colour name="Fire engine red" hue="357.000" saturation="0.840" value="0.810" />
+    <colour name="Flame" hue="17.000" saturation="0.850" value="0.890" />
+    <colour name="Flamingo pink" hue="344.000" saturation="0.440" value="0.990" />
+    <colour name="Flattery" hue="28.000" saturation="0.670" value="0.420" />
+    <colour name="Flavescent" hue="52.000" saturation="0.430" value="0.970" />
+    <colour name="Flax" hue="50.000" saturation="0.450" value="0.930" />
+    <colour name="Flirt" hue="320.000" saturation="1.000" value="0.640" />
+    <colour name="Floral white" hue="40.000" saturation="0.060" value="1.000" />
+    <colour name="Fluorescent orange" hue="45.000" saturation="1.000" value="1.000" />
+    <colour name="Fluorescent pink" hue="328.000" saturation="0.920" value="1.000" />
+    <colour name="Fluorescent yellow" hue="72.000" saturation="1.000" value="1.000" />
+    <colour name="Folly" hue="341.000" saturation="1.000" value="1.000" />
+    <colour name="Forest Green" hue="78.462" saturation="0.374" value="0.682" />
+    <colour name="Forest green (traditional)" hue="149.000" saturation="0.990" value="0.270" />
+    <colour name="Forest green (web)" hue="120.000" saturation="0.760" value="0.550" />
+    <colour name="French beige" hue="26.000" saturation="0.450" value="0.650" />
+    <colour name="French bistre" hue="34.000" saturation="0.420" value="0.520" />
+    <colour name="French blue" hue="203.000" saturation="1.000" value="0.730" />
+    <colour name="French fuchsia" hue="334.000" saturation="0.750" value="0.990" />
+    <colour name="French lilac" hue="290.000" saturation="0.320" value="0.560" />
+    <colour name="French lime" hue="89.000" saturation="0.780" value="0.990" />
+    <colour name="French mauve" hue="300.000" saturation="0.460" value="0.830" />
+    <colour name="French pink" hue="339.000" saturation="0.570" value="0.990" />
+    <colour name="French plum" hue="325.000" saturation="0.840" value="0.510" />
+    <colour name="French puce" hue="11.000" saturation="0.880" value="0.310" />
+    <colour name="French raspberry" hue="349.000" saturation="0.780" value="0.780" />
+    <colour name="French rose" hue="338.000" saturation="0.700" value="0.960" />
+    <colour name="French sky blue" hue="212.000" saturation="0.530" value="1.000" />
+    <colour name="French violet" hue="279.000" saturation="0.970" value="0.810" />
+    <colour name="French wine" hue="344.000" saturation="0.830" value="0.670" />
+    <colour name="Fresh Air" hue="196.000" saturation="0.350" value="1.000" />
+    <colour name="Fuchsia" hue="298.763" saturation="0.492" value="0.773" />
+    <colour name="Fuchsia" hue="300.000" saturation="1.000" value="1.000" />
+    <colour name="Fuchsia (Crayola)" hue="300.000" saturation="0.560" value="0.760" />
+    <colour name="Fuchsia pink" hue="300.000" saturation="0.530" value="1.000" />
+    <colour name="Fuchsia purple" hue="333.000" saturation="0.720" value="0.800" />
+    <colour name="Fuchsia rose" hue="337.000" saturation="0.660" value="0.780" />
+    <colour name="Fulvous" hue="35.000" saturation="1.000" value="0.890" />
+    <colour name="Fuzzy Wuzzy" hue="0.000" saturation="0.500" value="0.800" />
+    <colour name="Gainsboro" hue="0.000" saturation="0.000" value="0.860" />
+    <colour name="Gamboge" hue="39.000" saturation="0.930" value="0.890" />
+    <colour name="Gamboge orange (brown)" hue="40.000" saturation="1.000" value="0.600" />
+    <colour name="Generic viridian" hue="168.000" saturation="1.000" value="0.500" />
+    <colour name="Ghost white" hue="240.000" saturation="0.030" value="1.000" />
+    <colour name="Giants orange" hue="16.000" saturation="0.890" value="1.000" />
+    <colour name="Glaucous" hue="216.000" saturation="0.470" value="0.710" />
+    <colour name="Glitter" hue="234.000" saturation="0.080" value="0.980" />
+    <colour name="GO green" hue="156.000" saturation="1.000" value="0.670" />
+    <colour name="Gold" hue="35.250" saturation="0.346" value="0.906" />
+    <colour name="Golden brown" hue="36.000" saturation="0.860" value="0.600" />
+    <colour name="Golden poppy" hue="46.000" saturation="1.000" value="0.990" />
+    <colour name="Goldenrod" hue="43.000" saturation="0.850" value="0.850" />
+    <colour name="Goldenrod" hue="44.444" saturation="0.536" value="0.988" />
+    <colour name="Golden yellow" hue="52.000" saturation="1.000" value="1.000" />
+    <colour name="Gold Fusion" hue="43.000" saturation="0.410" value="0.520" />
+    <colour name="Gold (metallic)" hue="46.000" saturation="0.740" value="0.830" />
+    <colour name="Gold (web) (Golden)" hue="51.000" saturation="1.000" value="1.000" />
+    <colour name="Granny Smith Apple" hue="113.000" saturation="0.300" value="0.890" />
+    <colour name="Granny Smith Apple" hue="60.000" saturation="0.298" value="0.894" />
+    <colour name="Grape" hue="272.000" saturation="0.730" value="0.660" />
+    <colour name="Gray" hue="0.000" saturation="0.000" value="0.500" />
+    <colour name="Gray" hue="33.333" saturation="0.060" value="0.584" />
+    <colour name="Gray-asparagus" hue="117.000" saturation="0.220" value="0.350" />
+    <colour name="Gray-blue" hue="229.000" saturation="0.190" value="0.670" />
+    <colour name="Gray (HTML/CSS gray)" hue="0.000" saturation="0.000" value="0.500" />
+    <colour name="Gray (X11 gray)" hue="0.000" saturation="0.000" value="0.750" />
+    <colour name="Green" hue="98.333" saturation="0.837" value="0.675" />
+    <colour name="Green-blue" hue="209.000" saturation="0.910" value="0.710" />
+    <colour name="Green (Color Wheel) (X11 green)" hue="120.000" saturation="1.000" value="1.000" />
+    <colour name="Green (Crayola)" hue="158.000" saturation="0.840" value="0.670" />
+    <colour name="Green-cyan" hue="160.000" saturation="1.000" value="0.600" />
+    <colour name="Green (HTML/CSS color)" hue="120.000" saturation="1.000" value="0.500" />
+    <colour name="Green (Munsell)" hue="163.000" saturation="1.000" value="0.660" />
+    <colour name="Green (NCS)" hue="160.000" saturation="1.000" value="0.620" />
+    <colour name="Green (Pantone)" hue="143.000" saturation="1.000" value="0.680" />
+    <colour name="Green (pigment)" hue="149.000" saturation="1.000" value="0.650" />
+    <colour name="Green (RYB)" hue="95.000" saturation="0.720" value="0.690" />
+    <colour name="Green Yellow" hue="54.947" saturation="0.396" value="0.941" />
+    <colour name="Green-yellow" hue="84.000" saturation="0.820" value="1.000" />
+    <colour name="Grizzly" hue="34.000" saturation="0.820" value="0.530" />
+    <colour name="Grullo" hue="34.000" saturation="0.210" value="0.660" />
+    <colour name="Grussrel" hue="34.000" saturation="1.000" value="0.690" />
+    <colour name="Gunmetal" hue="200.000" saturation="0.150" value="0.190" />
+    <colour name="Guppie green" hue="150.000" saturation="1.000" value="1.000" />
+    <colour name="Halayà úbe" hue="323.000" saturation="0.450" value="0.400" />
+    <colour name="Han blue" hue="223.000" saturation="0.670" value="0.810" />
+    <colour name="Han purple" hue="255.000" saturation="0.900" value="0.980" />
+    <colour name="Hansa yellow" hue="51.000" saturation="0.540" value="0.910" />
+    <colour name="Harlequin" hue="105.000" saturation="1.000" value="1.000" />
+    <colour name="Harlequin green" hue="105.000" saturation="0.880" value="0.800" />
+    <colour name="Harvard crimson" hue="353.000" saturation="1.000" value="0.790" />
+    <colour name="Harvest gold" hue="40.000" saturation="1.000" value="0.850" />
+    <colour name="Heart Gold" hue="60.000" saturation="1.000" value="0.500" />
+    <colour name="Heliotrope" hue="286.000" saturation="0.550" value="1.000" />
+    <colour name="Heliotrope gray" hue="303.000" saturation="0.110" value="0.670" />
+    <colour name="Heliotrope magenta" hue="295.000" saturation="1.000" value="0.730" />
+    <colour name="Hollywood cerise" hue="320.000" saturation="1.000" value="0.960" />
+    <colour name="Honeydew" hue="120.000" saturation="0.060" value="1.000" />
+    <colour name="Honolulu blue" hue="203.000" saturation="1.000" value="0.690" />
+    <colour name="Hooker's green" hue="163.000" saturation="0.400" value="0.470" />
+    <colour name="Hot magenta" hue="313.000" saturation="0.890" value="1.000" />
+    <colour name="Hot Magenta" hue="313.009" saturation="0.886" value="1.000" />
+    <colour name="Hot pink" hue="330.000" saturation="0.590" value="1.000" />
+    <colour name="Hunter green" hue="129.000" saturation="0.440" value="0.370" />
+    <colour name="Iceberg" hue="207.000" saturation="0.460" value="0.820" />
+    <colour name="Icterine" hue="58.000" saturation="0.630" value="0.990" />
+    <colour name="Illuminating Emerald" hue="164.000" saturation="0.660" value="0.570" />
+    <colour name="Imperial" hue="289.000" saturation="0.560" value="0.420" />
+    <colour name="Imperial blue" hue="226.000" saturation="1.000" value="0.580" />
+    <colour name="Imperial purple" hue="325.000" saturation="0.980" value="0.400" />
+    <colour name="Imperial red" hue="355.000" saturation="0.830" value="0.930" />
+    <colour name="Inchworm" hue="60.000" saturation="0.606" value="0.925" />
+    <colour name="Inchworm" hue="84.000" saturation="0.610" value="0.930" />
+    <colour name="Independence" hue="231.000" saturation="0.300" value="0.430" />
+    <colour name="India green" hue="115.000" saturation="0.940" value="0.530" />
+    <colour name="Indian red" hue="0.000" saturation="0.550" value="0.800" />
+    <colour name="Indian yellow" hue="35.000" saturation="0.620" value="0.890" />
+    <colour name="Indigo" hue="226.364" saturation="0.542" value="0.796" />
+    <colour name="Indigo" hue="266.000" saturation="1.000" value="1.000" />
+    <colour name="Indigo dye" hue="230.000" saturation="0.940" value="0.570" />
+    <colour name="Indigo (web)" hue="275.000" saturation="1.000" value="0.510" />
+    <colour name="International Klein Blue" hue="223.000" saturation="1.000" value="0.650" />
+    <colour name="International orange (aerospace)" hue="19.000" saturation="1.000" value="1.000" />
+    <colour name="International orange (engineering)" hue="3.000" saturation="0.940" value="0.730" />
+    <colour name="International orange (Golden Gate Bridge)" hue="4.000" saturation="0.770" value="0.750" />
+    <colour name="Iris" hue="245.000" saturation="0.620" value="0.810" />
+    <colour name="Irresistible" hue="338.000" saturation="0.620" value="0.700" />
+    <colour name="Isabelline" hue="30.000" saturation="0.030" value="0.960" />
+    <colour name="Islamic green" hue="120.000" saturation="1.000" value="0.560" />
+    <colour name="Italian sky blue" hue="180.000" saturation="0.300" value="1.000" />
+    <colour name="Ivory" hue="60.000" saturation="0.060" value="1.000" />
+    <colour name="Jade" hue="158.000" saturation="1.000" value="0.660" />
+    <colour name="Japanese carmine" hue="355.000" saturation="0.740" value="0.620" />
+    <colour name="Japanese indigo" hue="189.000" saturation="0.470" value="0.280" />
+    <colour name="Japanese violet" hue="307.000" saturation="0.450" value="0.360" />
+    <colour name="Jasmine" hue="47.000" saturation="0.490" value="0.970" />
+    <colour name="Jasper" hue="359.000" saturation="0.730" value="0.840" />
+    <colour name="Jazzberry jam" hue="328.000" saturation="0.930" value="0.650" />
+    <colour name="Jazzberry Jam" hue="340.408" saturation="0.728" value="0.792" />
+    <colour name="Jelly Bean" hue="8.000" saturation="0.640" value="0.850" />
+    <colour name="Jet" hue="0.000" saturation="0.000" value="0.200" />
+    <colour name="Jonquil" hue="49.000" saturation="0.910" value="0.960" />
+    <colour name="Jordy blue" hue="213.000" saturation="0.430" value="0.950" />
+    <colour name="June bud" hue="73.000" saturation="0.600" value="0.850" />
+    <colour name="Jungle Green" hue="103.077" saturation="0.665" value="0.690" />
+    <colour name="Jungle green" hue="163.000" saturation="0.760" value="0.670" />
+    <colour name="Kelly green" hue="101.000" saturation="0.880" value="0.730" />
+    <colour name="Kenyan copper" hue="12.000" saturation="0.960" value="0.490" />
+    <colour name="Keppel" hue="171.000" saturation="0.670" value="0.690" />
+    <colour name="Khaki (HTML/CSS) (Khaki)" hue="37.000" saturation="0.260" value="0.760" />
+    <colour name="Khaki (X11) (Light khaki)" hue="54.000" saturation="0.420" value="0.940" />
+    <colour name="Kobe" hue="12.000" saturation="0.830" value="0.530" />
+    <colour name="Kobi" hue="329.000" saturation="0.310" value="0.910" />
+    <colour name="Kobicha" hue="28.000" saturation="0.670" value="0.420" />
+    <colour name="Kombu green" hue="103.000" saturation="0.270" value="0.260" />
+    <colour name="KU Crimson" hue="357.000" saturation="1.000" value="0.910" />
+    <colour name="Languid lavender" hue="278.000" saturation="0.090" value="0.870" />
+    <colour name="Lapis lazuli" hue="210.000" saturation="0.760" value="0.610" />
+    <colour name="La Salle Green" hue="141.000" saturation="0.930" value="0.470" />
+    <colour name="Laser Lemon" hue="60.000" saturation="0.600" value="1.000" />
+    <colour name="Laser Lemon" hue="60.000" saturation="0.866" value="0.996" />
+    <colour name="Laurel green" hue="95.000" saturation="0.160" value="0.730" />
+    <colour name="Lava" hue="355.000" saturation="0.920" value="0.810" />
+    <colour name="Lavender" hue="332.500" saturation="0.286" value="0.988" />
+    <colour name="Lavender blue" hue="240.000" saturation="0.200" value="1.000" />
+    <colour name="Lavender blush" hue="340.000" saturation="0.060" value="1.000" />
+    <colour name="Lavender (floral)" hue="275.000" saturation="0.430" value="0.860" />
+    <colour name="Lavender gray" hue="245.000" saturation="0.060" value="0.820" />
+    <colour name="Lavender indigo" hue="265.000" saturation="0.630" value="0.920" />
+    <colour name="Lavender magenta" hue="300.000" saturation="0.450" value="0.930" />
+    <colour name="Lavender mist" hue="240.000" saturation="0.080" value="0.980" />
+    <colour name="Lavender pink" hue="332.000" saturation="0.310" value="0.980" />
+    <colour name="Lavender purple" hue="267.000" saturation="0.320" value="0.710" />
+    <colour name="Lavender rose" hue="316.000" saturation="0.360" value="0.980" />
+    <colour name="Lavender (web)" hue="240.000" saturation="0.080" value="0.980" />
+    <colour name="Lawn green" hue="90.000" saturation="1.000" value="0.990" />
+    <colour name="Lemon" hue="58.000" saturation="1.000" value="1.000" />
+    <colour name="Lemon chiffon" hue="54.000" saturation="0.200" value="1.000" />
+    <colour name="Lemon curry" hue="45.000" saturation="0.860" value="0.800" />
+    <colour name="Lemon glacier" hue="60.000" saturation="1.000" value="1.000" />
+    <colour name="Lemon lime" hue="67.000" saturation="1.000" value="1.000" />
+    <colour name="Lemon meringue" hue="47.000" saturation="0.230" value="0.960" />
+    <colour name="Lemon yellow" hue="56.000" saturation="0.690" value="1.000" />
+    <colour name="Lenurple" hue="274.000" saturation="0.320" value="0.850" />
+    <colour name="Liberty" hue="236.000" saturation="0.500" value="0.650" />
+    <colour name="Licorice" hue="6.000" saturation="0.380" value="0.100" />
+    <colour name="Light apricot" hue="28.000" saturation="0.300" value="0.990" />
+    <colour name="Light blue" hue="195.000" saturation="0.250" value="0.900" />
+    <colour name="Light brilliant red" hue="0.000" saturation="0.820" value="1.000" />
+    <colour name="Light brown" hue="28.000" saturation="0.840" value="0.710" />
+    <colour name="Light carmine pink" hue="355.000" saturation="0.550" value="0.900" />
+    <colour name="Light cobalt blue" hue="215.000" saturation="0.390" value="0.880" />
+    <colour name="Light coral" hue="0.000" saturation="0.470" value="0.940" />
+    <colour name="Light cornflower blue" hue="201.000" saturation="0.370" value="0.920" />
+    <colour name="Light crimson" hue="343.000" saturation="0.570" value="0.960" />
+    <colour name="Light cyan" hue="180.000" saturation="0.120" value="1.000" />
+    <colour name="Light deep pink" hue="318.000" saturation="0.640" value="1.000" />
+    <colour name="Light French beige" hue="38.000" saturation="0.370" value="0.780" />
+    <colour name="Light fuchsia pink" hue="305.000" saturation="0.470" value="0.980" />
+    <colour name="Light goldenrod yellow" hue="60.000" saturation="0.160" value="0.980" />
+    <colour name="Light gray" hue="0.000" saturation="0.000" value="0.830" />
+    <colour name="Light grayish magenta" hue="300.000" saturation="0.250" value="0.800" />
+    <colour name="Light green" hue="120.000" saturation="0.390" value="0.930" />
+    <colour name="Light hot pink" hue="326.000" saturation="0.300" value="1.000" />
+    <colour name="Light khaki" hue="54.000" saturation="0.420" value="0.940" />
+    <colour name="Light medium orchid" hue="309.000" saturation="0.270" value="0.830" />
+    <colour name="Light moss green" hue="120.000" saturation="0.220" value="0.870" />
+    <colour name="Light orchid" hue="315.000" saturation="0.270" value="0.900" />
+    <colour name="Light pastel purple" hue="261.000" saturation="0.280" value="0.850" />
+    <colour name="Light pink" hue="351.000" saturation="0.290" value="1.000" />
+    <colour name="Light red ochre" hue="14.000" saturation="0.650" value="0.910" />
+    <colour name="Light salmon" hue="17.000" saturation="0.520" value="1.000" />
+    <colour name="Light salmon pink" hue="0.000" saturation="0.400" value="1.000" />
+    <colour name="Light sea green" hue="177.000" saturation="0.820" value="0.700" />
+    <colour name="Light sky blue" hue="203.000" saturation="0.460" value="0.980" />
+    <colour name="Light slate gray" hue="210.000" saturation="0.220" value="0.600" />
+    <colour name="Light steel blue" hue="214.000" saturation="0.210" value="0.870" />
+    <colour name="Light taupe" hue="26.000" saturation="0.390" value="0.700" />
+    <colour name="Light Thulian pink" hue="340.000" saturation="0.380" value="0.900" />
+    <colour name="Light yellow" hue="60.000" saturation="0.120" value="1.000" />
+    <colour name="Lilac" hue="300.000" saturation="0.190" value="0.780" />
+    <colour name="Lime (color wheel)" hue="75.000" saturation="1.000" value="1.000" />
+    <colour name="Lime green" hue="120.000" saturation="0.760" value="0.800" />
+    <colour name="Limerick" hue="72.000" saturation="0.950" value="0.760" />
+    <colour name="Lime (web) (X11 green)" hue="120.000" saturation="1.000" value="1.000" />
+    <colour name="Lincoln green" hue="106.000" saturation="0.940" value="0.350" />
+    <colour name="Linen" hue="30.000" saturation="0.080" value="0.980" />
+    <colour name="Lion" hue="33.000" saturation="0.450" value="0.760" />
+    <colour name="Liseran Purple" hue="333.000" saturation="0.500" value="0.870" />
+    <colour name="Little boy blue" hue="212.000" saturation="0.510" value="0.860" />
+    <colour name="Liver" hue="9.000" saturation="0.310" value="0.400" />
+    <colour name="Liver chestnut" hue="27.000" saturation="0.430" value="0.600" />
+    <colour name="Liver (dogs)" hue="29.000" saturation="0.780" value="0.720" />
+    <colour name="Liver (organ)" hue="12.000" saturation="0.710" value="0.420" />
+    <colour name="Livid" hue="210.000" saturation="0.500" value="0.800" />
+    <colour name="Lumber" hue="28.000" saturation="0.200" value="1.000" />
+    <colour name="Lust" hue="0.000" saturation="0.860" value="0.900" />
+    <colour name="Macaroni and Cheese" hue="26.723" saturation="0.467" value="1.000" />
+    <colour name="Macaroni and Cheese" hue="27.000" saturation="0.470" value="1.000" />
+    <colour name="Magenta" hue="300.000" saturation="1.000" value="1.000" />
+    <colour name="Magenta" hue="329.178" saturation="0.593" value="0.965" />
+    <colour name="Magenta (Crayola)" hue="332.000" saturation="0.670" value="1.000" />
+    <colour name="Magenta (dye)" hue="328.000" saturation="0.850" value="0.790" />
+    <colour name="Magenta haze" hue="327.000" saturation="0.570" value="0.620" />
+    <colour name="Magenta (Pantone)" hue="334.000" saturation="0.690" value="0.820" />
+    <colour name="Magenta-pink" hue="325.000" saturation="0.750" value="0.800" />
+    <colour name="Magenta (process)" hue="326.000" saturation="1.000" value="1.000" />
+    <colour name="Magic mint" hue="153.000" saturation="0.290" value="0.940" />
+    <colour name="Magnolia" hue="262.000" saturation="0.040" value="1.000" />
+    <colour name="Mahogany" hue="20.000" saturation="1.000" value="0.750" />
+    <colour name="Mahogany" hue="359.084" saturation="0.639" value="0.804" />
+    <colour name="Maize" hue="54.000" saturation="0.630" value="0.980" />
+    <colour name="Majorelle Blue" hue="247.000" saturation="0.640" value="0.860" />
+    <colour name="Malachite" hue="140.000" saturation="0.950" value="0.850" />
+    <colour name="Manatee" hue="230.526" saturation="0.112" value="0.667" />
+    <colour name="Manatee" hue="231.000" saturation="0.110" value="0.670" />
+    <colour name="Mango Tango" hue="20.000" saturation="0.740" value="1.000" />
+    <colour name="Mango Tango" hue="20.106" saturation="0.737" value="1.000" />
+    <colour name="Mantis" hue="110.000" saturation="0.480" value="0.760" />
+    <colour name="Mardi Gras" hue="301.000" saturation="1.000" value="0.530" />
+    <colour name="Marigold" hue="39.000" saturation="0.850" value="0.910" />
+    <colour name="Maroon" hue="345.833" saturation="0.720" value="0.784" />
+    <colour name="Maroon (Crayola)" hue="346.000" saturation="0.830" value="0.760" />
+    <colour name="Maroon (HTML/CSS)" hue="0.000" saturation="1.000" value="0.500" />
+    <colour name="Maroon (X11)" hue="338.000" saturation="0.730" value="0.690" />
+    <colour name="Mauve" hue="276.000" saturation="0.310" value="1.000" />
+    <colour name="Mauvelous" hue="347.586" saturation="0.364" value="0.937" />
+    <colour name="Mauvelous" hue="348.000" saturation="0.360" value="0.940" />
+    <colour name="Mauve taupe" hue="343.000" saturation="0.340" value="0.570" />
+    <colour name="Maya blue" hue="205.000" saturation="0.540" value="0.980" />
+    <colour name="May green" hue="112.000" saturation="0.550" value="0.570" />
+    <colour name="Meat brown" hue="44.000" saturation="0.740" value="0.900" />
+    <colour name="Medium aquamarine" hue="154.000" saturation="0.540" value="0.870" />
+    <colour name="Medium blue" hue="240.000" saturation="1.000" value="0.800" />
+    <colour name="Medium candy apple red" hue="350.000" saturation="0.970" value="0.890" />
+    <colour name="Medium carmine" hue="5.000" saturation="0.700" value="0.690" />
+    <colour name="Medium champagne" hue="48.000" saturation="0.300" value="0.950" />
+    <colour name="Medium electric blue" hue="209.000" saturation="0.980" value="0.590" />
+    <colour name="Medium jungle green" hue="161.000" saturation="0.470" value="0.210" />
+    <colour name="Medium lavender magenta" hue="300.000" saturation="0.280" value="0.870" />
+    <colour name="Medium orchid" hue="288.000" saturation="0.600" value="0.830" />
+    <colour name="Medium Persian blue" hue="203.000" saturation="1.000" value="0.650" />
+    <colour name="Medium purple" hue="260.000" saturation="0.490" value="0.860" />
+    <colour name="Medium red-violet" hue="324.000" saturation="0.730" value="0.730" />
+    <colour name="Medium ruby" hue="337.000" saturation="0.620" value="0.670" />
+    <colour name="Medium sea green" hue="147.000" saturation="0.660" value="0.700" />
+    <colour name="Medium sky blue" hue="190.000" saturation="0.460" value="0.920" />
+    <colour name="Medium slate blue" hue="249.000" saturation="0.560" value="0.930" />
+    <colour name="Medium spring bud" hue="73.000" saturation="0.390" value="0.860" />
+    <colour name="Medium spring green" hue="157.000" saturation="1.000" value="0.980" />
+    <colour name="Medium taupe" hue="9.000" saturation="0.310" value="0.400" />
+    <colour name="Medium turquoise" hue="178.000" saturation="0.660" value="0.820" />
+    <colour name="Medium Tuscan red" hue="9.000" saturation="0.510" value="0.470" />
+    <colour name="Medium vermilion" hue="14.000" saturation="0.730" value="0.850" />
+    <colour name="Medium violet-red" hue="322.000" saturation="0.890" value="0.780" />
+    <colour name="Mellow apricot" hue="30.000" saturation="0.520" value="0.970" />
+    <colour name="Mellow yellow" hue="47.000" saturation="0.490" value="0.970" />
+    <colour name="Melon" hue="6.575" saturation="0.289" value="0.992" />
+    <colour name="Melon" hue="7.000" saturation="0.290" value="0.990" />
+    <colour name="Metallic Seaweed" hue="186.000" saturation="0.930" value="0.550" />
+    <colour name="Metallic Sunburst" hue="41.000" saturation="0.640" value="0.610" />
+    <colour name="Mexican pink" hue="327.000" saturation="1.000" value="0.890" />
+    <colour name="Midnight Blue" hue="210.000" saturation="0.780" value="0.463" />
+    <colour name="Midnight blue" hue="240.000" saturation="0.780" value="0.440" />
+    <colour name="Midnight green (eagle green)" hue="187.000" saturation="1.000" value="0.330" />
+    <colour name="Mikado yellow" hue="45.000" saturation="0.950" value="1.000" />
+    <colour name="Mindaro" hue="72.000" saturation="0.450" value="0.980" />
+    <colour name="Ming" hue="188.000" saturation="0.560" value="0.490" />
+    <colour name="Mint" hue="158.000" saturation="0.660" value="0.710" />
+    <colour name="Mint cream" hue="150.000" saturation="0.040" value="1.000" />
+    <colour name="Mint green" hue="120.000" saturation="0.400" value="1.000" />
+    <colour name="Misty rose" hue="6.000" saturation="0.120" value="1.000" />
+    <colour name="Moccasin" hue="34.000" saturation="0.140" value="0.980" />
+    <colour name="Mode beige" hue="43.000" saturation="0.850" value="0.590" />
+    <colour name="Moonstone blue" hue="199.000" saturation="0.410" value="0.760" />
+    <colour name="Mordant red 19" hue="4.000" saturation="1.000" value="0.680" />
+    <colour name="Moss green" hue="75.000" saturation="0.410" value="0.600" />
+    <colour name="Mountain Meadow" hue="101.304" saturation="0.742" value="0.729" />
+    <colour name="Mountain Meadow" hue="161.000" saturation="0.740" value="0.730" />
+    <colour name="Mountbatten pink" hue="323.000" saturation="0.200" value="0.600" />
+    <colour name="MSU Green" hue="167.000" saturation="0.650" value="0.270" />
+    <colour name="Mughal green" hue="120.000" saturation="0.500" value="0.380" />
+    <colour name="Mulberry" hue="328.000" saturation="0.620" value="0.770" />
+    <colour name="Mustard" hue="47.000" saturation="0.650" value="1.000" />
+    <colour name="Myrtle green" hue="176.000" saturation="0.590" value="0.470" />
+    <colour name="Nadeshiko pink" hue="339.000" saturation="0.300" value="0.960" />
+    <colour name="Napier green" hue="100.000" saturation="1.000" value="0.500" />
+    <colour name="Naples yellow" hue="48.000" saturation="0.620" value="0.980" />
+    <colour name="Navajo white" hue="36.000" saturation="0.320" value="1.000" />
+    <colour name="Navy" hue="240.000" saturation="1.000" value="0.500" />
+    <colour name="Navy Blue" hue="210.486" saturation="0.881" value="0.824" />
+    <colour name="Navy purple" hue="265.000" saturation="0.630" value="0.920" />
+    <colour name="Neon Carrot" hue="30.638" saturation="0.737" value="1.000" />
+    <colour name="Neon Carrot" hue="31.000" saturation="0.740" value="1.000" />
+    <colour name="Neon fuchsia" hue="349.000" saturation="0.740" value="1.000" />
+    <colour name="Neon green" hue="111.000" saturation="0.920" value="1.000" />
+    <colour name="New Car" hue="223.000" saturation="0.830" value="0.780" />
+    <colour name="New York pink" hue="3.000" saturation="0.410" value="0.840" />
+    <colour name="Non-photo blue" hue="193.000" saturation="0.310" value="0.930" />
+    <colour name="North Texas Green" hue="140.000" saturation="0.970" value="0.560" />
+    <colour name="Nyanza" hue="97.000" saturation="0.140" value="1.000" />
+    <colour name="Ocean Boat Blue" hue="202.000" saturation="1.000" value="0.750" />
+    <colour name="Ochre" hue="30.000" saturation="0.830" value="0.800" />
+    <colour name="Office green" hue="120.000" saturation="1.000" value="0.500" />
+    <colour name="Old burgundy" hue="6.000" saturation="0.310" value="0.260" />
+    <colour name="Old gold" hue="49.000" saturation="0.710" value="0.810" />
+    <colour name="Old heliotrope" hue="289.000" saturation="0.350" value="0.360" />
+    <colour name="Old lace" hue="39.000" saturation="0.090" value="0.990" />
+    <colour name="Old lavender" hue="304.000" saturation="0.140" value="0.470" />
+    <colour name="Old mauve" hue="336.000" saturation="0.520" value="0.400" />
+    <colour name="Old moss green" hue="54.000" saturation="0.600" value="0.530" />
+    <colour name="Old rose" hue="359.000" saturation="0.330" value="0.750" />
+    <colour name="Old silver" hue="60.000" saturation="0.020" value="0.520" />
+    <colour name="Olive" hue="60.000" saturation="1.000" value="0.500" />
+    <colour name="Olive Drab (#3)" hue="80.000" saturation="0.750" value="0.560" />
+    <colour name="Olive Drab #7" hue="43.000" saturation="0.480" value="0.240" />
+    <colour name="Olive Green" hue="58.462" saturation="0.419" value="0.729" />
+    <colour name="Olivine" hue="87.000" saturation="0.380" value="0.730" />
+    <colour name="Onyx" hue="195.000" saturation="0.070" value="0.220" />
+    <colour name="Opera mauve" hue="319.000" saturation="0.280" value="0.720" />
+    <colour name="Orange" hue="18.392" saturation="0.780" value="1.000" />
+    <colour name="Orange (color wheel)" hue="30.000" saturation="1.000" value="1.000" />
+    <colour name="Orange (Crayola)" hue="18.000" saturation="0.780" value="1.000" />
+    <colour name="Orange (Pantone)" hue="21.000" saturation="1.000" value="1.000" />
+    <colour name="Orange peel" hue="37.000" saturation="1.000" value="1.000" />
+    <colour name="Orange-red" hue="16.000" saturation="1.000" value="1.000" />
+    <colour name="Orange (RYB)" hue="36.000" saturation="0.990" value="0.980" />
+    <colour name="Orange (web)" hue="39.000" saturation="1.000" value="1.000" />
+    <colour name="Orange-yellow" hue="45.000" saturation="0.580" value="0.970" />
+    <colour name="Orchid" hue="302.000" saturation="0.490" value="0.850" />
+    <colour name="Orchid" hue="314.516" saturation="0.270" value="0.902" />
+    <colour name="Orchid pink" hue="342.000" saturation="0.220" value="0.950" />
+    <colour name="Orioles orange" hue="15.000" saturation="0.920" value="0.980" />
+    <colour name="Otter brown" hue="30.000" saturation="0.670" value="0.400" />
+    <colour name="OU Crimson Red" hue="0.000" saturation="1.000" value="0.600" />
+    <colour name="Outer Space" hue="190.909" saturation="0.145" value="0.298" />
+    <colour name="Outer Space" hue="191.000" saturation="0.140" value="0.300" />
+    <colour name="Outrageous Orange" hue="11.934" saturation="0.710" value="1.000" />
+    <colour name="Outrageous Orange" hue="12.000" saturation="0.710" value="1.000" />
+    <colour name="Oxford Blue" hue="212.000" saturation="1.000" value="0.280" />
+    <colour name="Pacific Blue" hue="191.000" saturation="0.860" value="0.790" />
+    <colour name="Pacific Blue" hue="191.098" saturation="0.861" value="0.788" />
+    <colour name="Pakistan green" hue="120.000" saturation="1.000" value="0.400" />
+    <colour name="Palatinate blue" hue="234.000" saturation="0.830" value="0.890" />
+    <colour name="Palatinate purple" hue="308.000" saturation="0.620" value="0.410" />
+    <colour name="Pale aqua" hue="206.000" saturation="0.180" value="0.900" />
+    <colour name="Pale blue" hue="180.000" saturation="0.260" value="0.930" />
+    <colour name="Pale brown" hue="30.000" saturation="0.450" value="0.600" />
+    <colour name="Pale carmine" hue="5.000" saturation="0.700" value="0.690" />
+    <colour name="Pale cerulean" hue="205.000" saturation="0.310" value="0.890" />
+    <colour name="Pale chestnut" hue="358.000" saturation="0.220" value="0.870" />
+    <colour name="Pale copper" hue="18.000" saturation="0.530" value="0.850" />
+    <colour name="Pale cornflower blue" hue="210.000" saturation="0.280" value="0.940" />
+    <colour name="Pale cyan" hue="200.000" saturation="0.460" value="0.970" />
+    <colour name="Pale gold" hue="34.000" saturation="0.400" value="0.900" />
+    <colour name="Pale goldenrod" hue="55.000" saturation="0.290" value="0.930" />
+    <colour name="Pale green" hue="120.000" saturation="0.390" value="0.980" />
+    <colour name="Pale lavender" hue="255.000" saturation="0.180" value="1.000" />
+    <colour name="Pale magenta" hue="310.000" saturation="0.470" value="0.980" />
+    <colour name="Pale magenta-pink" hue="330.000" saturation="0.400" value="1.000" />
+    <colour name="Pale pink" hue="354.000" saturation="0.130" value="0.980" />
+    <colour name="Pale plum" hue="300.000" saturation="0.280" value="0.870" />
+    <colour name="Pale red-violet" hue="340.000" saturation="0.490" value="0.860" />
+    <colour name="Pale robin egg blue" hue="169.000" saturation="0.320" value="0.870" />
+    <colour name="Pale silver" hue="21.000" saturation="0.070" value="0.790" />
+    <colour name="Pale spring bud" hue="59.000" saturation="0.200" value="0.930" />
+    <colour name="Pale taupe" hue="25.000" saturation="0.330" value="0.740" />
+    <colour name="Pale turquoise" hue="180.000" saturation="0.260" value="0.930" />
+    <colour name="Pale violet" hue="270.000" saturation="0.400" value="1.000" />
+    <colour name="Pale violet-red" hue="340.000" saturation="0.490" value="0.860" />
+    <colour name="Pansy purple" hue="329.000" saturation="0.800" value="0.470" />
+    <colour name="Paolo Veronese green" hue="168.000" saturation="1.000" value="0.610" />
+    <colour name="Papaya whip" hue="37.000" saturation="0.160" value="1.000" />
+    <colour name="Paradise pink" hue="347.000" saturation="0.730" value="0.900" />
+    <colour name="Paris Green" hue="140.000" saturation="0.600" value="0.780" />
+    <colour name="Pastel blue" hue="196.000" saturation="0.160" value="0.810" />
+    <colour name="Pastel brown" hue="28.000" saturation="0.370" value="0.510" />
+    <colour name="Pastel gray" hue="60.000" saturation="0.050" value="0.810" />
+    <colour name="Pastel green" hue="120.000" saturation="0.460" value="0.870" />
+    <colour name="Pastel magenta" hue="333.000" saturation="0.370" value="0.960" />
+    <colour name="Pastel orange" hue="35.000" saturation="0.720" value="1.000" />
+    <colour name="Pastel pink" hue="1.000" saturation="0.260" value="0.870" />
+    <colour name="Pastel purple" hue="295.000" saturation="0.130" value="0.710" />
+    <colour name="Pastel red" hue="3.000" saturation="0.620" value="1.000" />
+    <colour name="Pastel violet" hue="302.000" saturation="0.250" value="0.800" />
+    <colour name="Pastel yellow" hue="60.000" saturation="0.410" value="0.990" />
+    <colour name="Patriarch" hue="300.000" saturation="1.000" value="0.500" />
+    <colour name="Payne's grey" hue="206.000" saturation="0.310" value="0.470" />
+    <colour name="Peach" hue="25.714" saturation="0.329" value="1.000" />
+    <colour name="Peach" hue="26.000" saturation="0.360" value="1.000" />
+    <colour name="Peach" hue="39.000" saturation="0.290" value="1.000" />
+    <colour name="Peach-orange" hue="30.000" saturation="0.400" value="1.000" />
+    <colour name="Peach puff" hue="28.000" saturation="0.270" value="1.000" />
+    <colour name="Peach-yellow" hue="39.000" saturation="0.310" value="0.980" />
+    <colour name="Pear" hue="66.000" saturation="0.780" value="0.890" />
+    <colour name="Pearl" hue="42.000" saturation="0.150" value="0.920" />
+    <colour name="Pearl Aqua" hue="162.000" saturation="0.370" value="0.850" />
+    <colour name="Pearly purple" hue="316.000" saturation="0.430" value="0.720" />
+    <colour name="Peridot" hue="59.000" saturation="1.000" value="0.900" />
+    <colour name="Periwinkle" hue="220.000" saturation="0.143" value="0.902" />
+    <colour name="Periwinkle" hue="240.000" saturation="0.200" value="1.000" />
+    <colour name="Persian blue" hue="229.000" saturation="0.850" value="0.730" />
+    <colour name="Persian green" hue="173.000" saturation="1.000" value="0.650" />
+    <colour name="Persian indigo" hue="258.000" saturation="0.850" value="0.480" />
+    <colour name="Persian orange" hue="26.000" saturation="0.590" value="0.850" />
+    <colour name="Persian pink" hue="329.000" saturation="0.490" value="0.970" />
+    <colour name="Persian plum" hue="0.000" saturation="0.750" value="0.440" />
+    <colour name="Persian red" hue="0.000" saturation="0.750" value="0.800" />
+    <colour name="Persian rose" hue="326.000" saturation="0.840" value="1.000" />
+    <colour name="Persimmon" hue="22.000" saturation="1.000" value="0.930" />
+    <colour name="Peru" hue="30.000" saturation="0.690" value="0.800" />
+    <colour name="Phlox" hue="292.000" saturation="1.000" value="1.000" />
+    <colour name="Phthalo blue" hue="233.000" saturation="1.000" value="0.540" />
+    <colour name="Phthalo green" hue="151.000" saturation="0.660" value="0.210" />
+    <colour name="Picton blue" hue="200.000" saturation="0.700" value="0.910" />
+    <colour name="Pictorial carmine" hue="338.000" saturation="0.940" value="0.760" />
+    <colour name="Piggy pink" hue="343.000" saturation="0.130" value="0.990" />
+    <colour name="Piggy Pink" hue="343.125" saturation="0.126" value="0.992" />
+    <colour name="Pineapple" hue="289.000" saturation="0.350" value="0.360" />
+    <colour name="Pine Green" hue="115.514" saturation="0.836" value="0.502" />
+    <colour name="Pine green" hue="175.000" saturation="0.990" value="0.470" />
+    <colour name="Pink" hue="350.000" saturation="0.250" value="1.000" />
+    <colour name="Pink Flamingo" hue="299.562" saturation="0.542" value="0.992" />
+    <colour name="Pink Flamingo" hue="300.000" saturation="0.540" value="0.990" />
+    <colour name="Pink lace" hue="319.000" saturation="0.130" value="1.000" />
+    <colour name="Pink lavender" hue="311.000" saturation="0.180" value="0.850" />
+    <colour name="Pink-orange" hue="20.000" saturation="0.600" value="1.000" />
+    <colour name="Pink (Pantone)" hue="328.000" saturation="0.670" value="0.840" />
+    <colour name="Pink pearl" hue="324.000" saturation="0.260" value="0.910" />
+    <colour name="Pink raspberry" hue="339.000" saturation="1.000" value="0.600" />
+    <colour name="Pink Sherbert" hue="346.154" saturation="0.421" value="0.969" />
+    <colour name="Pink Sherbet" hue="346.000" saturation="0.420" value="0.970" />
+    <colour name="Pistachio" hue="96.000" saturation="0.420" value="0.770" />
+    <colour name="Platinum" hue="40.000" saturation="0.010" value="0.900" />
+    <colour name="Plum" hue="307.000" saturation="0.510" value="0.560" />
+    <colour name="Plum" hue="307.397" saturation="0.514" value="0.557" />
+    <colour name="Plum (web)" hue="300.000" saturation="0.280" value="0.870" />
+    <colour name="Pomp and Power" hue="290.000" saturation="0.320" value="0.560" />
+    <colour name="Popstar" hue="350.000" saturation="0.580" value="0.750" />
+    <colour name="Portland Orange" hue="11.000" saturation="0.790" value="1.000" />
+    <colour name="Powder blue" hue="187.000" saturation="0.230" value="0.900" />
+    <colour name="Princeton orange" hue="26.000" saturation="0.850" value="0.960" />
+    <colour name="Prune" hue="0.000" saturation="0.750" value="0.440" />
+    <colour name="Prussian blue" hue="205.000" saturation="1.000" value="0.330" />
+    <colour name="Psychedelic purple" hue="292.000" saturation="1.000" value="1.000" />
+    <colour name="Puce" hue="345.000" saturation="0.330" value="0.800" />
+    <colour name="Puce red" hue="353.000" saturation="0.590" value="0.450" />
+    <colour name="Pullman Brown (UPS Brown)" hue="33.000" saturation="0.770" value="0.390" />
+    <colour name="Pullman Green" hue="45.000" saturation="0.360" value="0.590" />
+    <colour name="Pumpkin" hue="24.000" saturation="0.910" value="1.000" />
+    <colour name="Purple Heart" hue="262.388" saturation="0.670" value="0.784" />
+    <colour name="Purple Heart" hue="270.000" saturation="0.660" value="0.610" />
+    <colour name="Purple (HTML)" hue="300.000" saturation="1.000" value="0.500" />
+    <colour name="Purple mountain majesty" hue="269.000" saturation="0.340" value="0.710" />
+    <colour name="Purple Mountains' Majesty" hue="269.474" saturation="0.306" value="0.729" />
+    <colour name="Purple (Munsell)" hue="288.000" saturation="1.000" value="0.770" />
+    <colour name="Purple navy" hue="236.000" saturation="0.390" value="0.500" />
+    <colour name="Purple pizzazz" hue="312.000" saturation="0.690" value="1.000" />
+    <colour name="Purple Pizzazz" hue="312.273" saturation="0.693" value="0.996" />
+    <colour name="Purple taupe" hue="311.000" saturation="0.200" value="0.310" />
+    <colour name="Purple (X11)" hue="277.000" saturation="0.870" value="0.940" />
+    <colour name="Purpureus" hue="288.000" saturation="0.550" value="0.680" />
+    <colour name="Quartz" hue="313.000" saturation="0.110" value="0.320" />
+    <colour name="Queen blue" hue="211.000" saturation="0.550" value="0.580" />
+    <colour name="Queen pink" hue="336.000" saturation="0.120" value="0.910" />
+    <colour name="Quinacridone magenta" hue="338.000" saturation="0.590" value="0.560" />
+    <colour name="Rackley" hue="204.000" saturation="0.450" value="0.660" />
+    <colour name="Radical Red" hue="348.000" saturation="0.790" value="1.000" />
+    <colour name="Radical Red" hue="348.462" saturation="0.714" value="1.000" />
+    <colour name="Raisin black" hue="300.000" saturation="0.080" value="0.140" />
+    <colour name="Rajah" hue="29.000" saturation="0.620" value="0.980" />
+    <colour name="Raspberry" hue="337.000" saturation="0.950" value="0.890" />
+    <colour name="Raspberry glace" hue="343.000" saturation="0.340" value="0.570" />
+    <colour name="Raspberry pink" hue="330.000" saturation="0.650" value="0.890" />
+    <colour name="Raspberry rose" hue="338.000" saturation="0.620" value="0.700" />
+    <colour name="Raw Sienna" hue="23.520" saturation="0.584" value="0.839" />
+    <colour name="Raw Sienna" hue="24.000" saturation="0.580" value="0.840" />
+    <colour name="Raw umber" hue="33.000" saturation="0.480" value="0.510" />
+    <colour name="Razzle dazzle rose" hue="315.000" saturation="0.800" value="1.000" />
+    <colour name="Razzle Dazzle Rose" hue="315.410" saturation="0.718" value="1.000" />
+    <colour name="Razzmatazz" hue="337.895" saturation="0.837" value="0.890" />
+    <colour name="Razzmatazz" hue="338.000" saturation="0.840" value="0.890" />
+    <colour name="Razzmic Berry" hue="308.000" saturation="0.450" value="0.550" />
+    <colour name="Rebecca Purple" hue="270.000" saturation="0.670" value="0.600" />
+    <colour name="Red" hue="0.000" saturation="1.000" value="1.000" />
+    <colour name="Red" hue="346.893" saturation="0.866" value="0.933" />
+    <colour name="Red-brown" hue="0.000" saturation="0.750" value="0.650" />
+    <colour name="Red (Crayola)" hue="347.000" saturation="0.870" value="0.930" />
+    <colour name="Red crimson" hue="355.000" saturation="0.830" value="0.890" />
+    <colour name="Red devil" hue="353.000" saturation="0.990" value="0.530" />
+    <colour name="Red (Munsell)" hue="345.000" saturation="1.000" value="0.950" />
+    <colour name="Red (NCS)" hue="345.000" saturation="0.990" value="0.770" />
+    <colour name="Red-orange" hue="3.000" saturation="0.710" value="1.000" />
+    <colour name="Red Orange" hue="3.297" saturation="0.714" value="1.000" />
+    <colour name="Red (Pantone)" hue="355.000" saturation="0.830" value="0.930" />
+    <colour name="Red (pigment)" hue="358.000" saturation="0.880" value="0.930" />
+    <colour name="Red-purple" hue="328.000" saturation="1.000" value="0.890" />
+    <colour name="Red (RYB)" hue="5.000" saturation="0.930" value="1.000" />
+    <colour name="Red-violet" hue="322.000" saturation="0.890" value="0.780" />
+    <colour name="Red Violet" hue="323.710" saturation="0.646" value="0.753" />
+    <colour name="Redwood" hue="6.000" saturation="0.500" value="0.640" />
+    <colour name="Regalia" hue="267.000" saturation="0.650" value="0.500" />
+    <colour name="Registration black" hue="0.000" saturation="0.000" value="0.000" />
+    <colour name="Resolution blue" hue="224.000" saturation="1.000" value="0.530" />
+    <colour name="Rhythm" hue="242.000" saturation="0.210" value="0.590" />
+    <colour name="Rich black" hue="180.000" saturation="1.000" value="0.250" />
+    <colour name="Rich black (FOGRA29)" hue="207.000" saturation="0.950" value="0.080" />
+    <colour name="Rich black (FOGRA39)" hue="210.000" saturation="0.670" value="0.010" />
+    <colour name="Rich brilliant lavender" hue="291.000" saturation="0.340" value="1.000" />
+    <colour name="Rich carmine" hue="342.000" saturation="1.000" value="0.840" />
+    <colour name="Rich electric blue" hue="199.000" saturation="0.960" value="0.820" />
+    <colour name="Rich lavender" hue="276.000" saturation="0.480" value="0.810" />
+    <colour name="Rich lilac" hue="284.000" saturation="0.510" value="0.820" />
+    <colour name="Rich maroon" hue="338.000" saturation="0.730" value="0.690" />
+    <colour name="Rifle green" hue="84.000" saturation="0.260" value="0.300" />
+    <colour name="Roast coffee" hue="1.000" saturation="0.420" value="0.440" />
+    <colour name="Robin egg blue" hue="180.000" saturation="1.000" value="0.800" />
+    <colour name="Robin's Egg Blue" hue="118.971" saturation="0.850" value="0.808" />
+    <colour name="Rocket metallic" hue="355.000" saturation="0.080" value="0.540" />
+    <colour name="Roman silver" hue="221.000" saturation="0.130" value="0.590" />
+    <colour name="Rose" hue="330.000" saturation="1.000" value="1.000" />
+    <colour name="Rose bonbon" hue="330.000" saturation="0.730" value="0.980" />
+    <colour name="Rose ebony" hue="4.000" saturation="0.320" value="0.400" />
+    <colour name="Rose gold" hue="351.000" saturation="0.400" value="0.720" />
+    <colour name="Rose madder" hue="355.000" saturation="0.830" value="0.890" />
+    <colour name="Rose pink" hue="320.000" saturation="0.600" value="1.000" />
+    <colour name="Rose quartz" hue="303.000" saturation="0.110" value="0.670" />
+    <colour name="Rose red" hue="340.000" saturation="0.850" value="0.760" />
+    <colour name="Rose taupe" hue="0.000" saturation="0.350" value="0.560" />
+    <colour name="Rose vale" hue="357.000" saturation="0.540" value="0.670" />
+    <colour name="Rosewood" hue="353.000" saturation="1.000" value="0.400" />
+    <colour name="Rosso corsa" hue="0.000" saturation="1.000" value="0.830" />
+    <colour name="Rosy brown" hue="0.000" saturation="0.240" value="0.740" />
+    <colour name="Royal azure" hue="220.000" saturation="1.000" value="0.660" />
+    <colour name="Royal blue" hue="219.000" saturation="1.000" value="0.400" />
+    <colour name="Royal blue" hue="225.000" saturation="0.710" value="0.880" />
+    <colour name="Royal fuchsia" hue="321.000" saturation="0.780" value="0.790" />
+    <colour name="Royal Purple" hue="266.591" saturation="0.521" value="0.663" />
+    <colour name="Royal purple" hue="267.000" saturation="0.520" value="0.660" />
+    <colour name="Royal yellow" hue="48.000" saturation="0.620" value="0.980" />
+    <colour name="Ruber" hue="339.000" saturation="0.660" value="0.810" />
+    <colour name="Rubine red" hue="335.000" saturation="1.000" value="0.820" />
+    <colour name="Ruby" hue="337.000" saturation="0.920" value="0.880" />
+    <colour name="Ruby red" hue="354.000" saturation="0.890" value="0.610" />
+    <colour name="Ruddy" hue="351.000" saturation="1.000" value="1.000" />
+    <colour name="Ruddy brown" hue="25.000" saturation="0.790" value="0.730" />
+    <colour name="Ruddy pink" hue="354.000" saturation="0.370" value="0.880" />
+    <colour name="Rufous" hue="8.000" saturation="0.960" value="0.660" />
+    <colour name="Russet" hue="26.000" saturation="0.790" value="0.500" />
+    <colour name="Russian green" hue="120.000" saturation="0.290" value="0.570" />
+    <colour name="Russian violet" hue="270.000" saturation="0.700" value="0.300" />
+    <colour name="Rust" hue="18.000" saturation="0.920" value="0.720" />
+    <colour name="Rusty red" hue="352.000" saturation="0.800" value="0.850" />
+    <colour name="Sacramento State green" hue="164.000" saturation="1.000" value="0.340" />
+    <colour name="Saddle brown" hue="25.000" saturation="0.860" value="0.550" />
+    <colour name="Safety orange" hue="28.000" saturation="1.000" value="1.000" />
+    <colour name="Safety orange (blaze orange)" hue="24.000" saturation="1.000" value="1.000" />
+    <colour name="Safety yellow" hue="53.000" saturation="0.990" value="0.930" />
+    <colour name="Saffron" hue="45.000" saturation="0.800" value="0.960" />
+    <colour name="Sage" hue="55.000" saturation="0.270" value="0.740" />
+    <colour name="Salmon" hue="351.000" saturation="0.392" value="1.000" />
+    <colour name="Salmon" hue="6.000" saturation="0.540" value="0.980" />
+    <colour name="Salmon pink" hue="350.000" saturation="0.430" value="1.000" />
+    <colour name="Sand" hue="45.000" saturation="0.340" value="0.760" />
+    <colour name="Sand dune" hue="43.000" saturation="0.850" value="0.590" />
+    <colour name="Sandstorm" hue="52.000" saturation="0.730" value="0.930" />
+    <colour name="Sandy brown" hue="28.000" saturation="0.610" value="0.960" />
+    <colour name="Sandy taupe" hue="43.000" saturation="0.850" value="0.590" />
+    <colour name="Sangria" hue="356.000" saturation="1.000" value="0.570" />
+    <colour name="Sap green" hue="93.000" saturation="0.660" value="0.490" />
+    <colour name="Sapphire" hue="216.000" saturation="0.920" value="0.730" />
+    <colour name="Sapphire blue" hue="203.000" saturation="1.000" value="0.650" />
+    <colour name="Satin sheen gold" hue="43.000" saturation="0.740" value="0.800" />
+    <colour name="Scarlet" hue="350.000" saturation="0.940" value="0.990" />
+    <colour name="Scarlet" hue="351.226" saturation="0.841" value="0.988" />
+    <colour name="Scarlet" hue="8.000" saturation="1.000" value="1.000" />
+    <colour name="Schauss pink" hue="344.000" saturation="0.430" value="1.000" />
+    <colour name="School bus yellow" hue="51.000" saturation="1.000" value="1.000" />
+    <colour name="Screamin' Green" hue="122.000" saturation="0.540" value="1.000" />
+    <colour name="Screamin' Green" hue="61.752" saturation="0.537" value="1.000" />
+    <colour name="Sea blue" hue="197.000" saturation="1.000" value="0.580" />
+    <colour name="Sea green" hue="146.000" saturation="0.670" value="0.550" />
+    <colour name="Sea Green" hue="89.211" saturation="0.341" value="0.875" />
+    <colour name="Seal brown" hue="0.000" saturation="0.600" value="0.200" />
+    <colour name="Seashell" hue="25.000" saturation="0.070" value="1.000" />
+    <colour name="Selective yellow" hue="44.000" saturation="1.000" value="1.000" />
+    <colour name="Sepia" hue="18.140" saturation="0.521" value="0.647" />
+    <colour name="Sepia" hue="30.000" saturation="0.820" value="0.440" />
+    <colour name="Shadow" hue="37.000" saturation="0.330" value="0.540" />
+    <colour name="Shadow" hue="37.333" saturation="0.326" value="0.541" />
+    <colour name="Shadow blue" hue="214.000" saturation="0.280" value="0.650" />
+    <colour name="Shampoo" hue="318.000" saturation="0.190" value="1.000" />
+    <colour name="Shamrock" hue="100.730" saturation="0.665" value="0.808" />
+    <colour name="Shamrock green" hue="156.000" saturation="1.000" value="0.620" />
+    <colour name="Sheen Green" hue="80.000" saturation="1.000" value="0.830" />
+    <colour name="Shimmering Blush" hue="349.000" saturation="0.380" value="0.850" />
+    <colour name="Shocking Pink" hue="299.055" saturation="0.502" value="0.992" />
+    <colour name="Shocking pink" hue="315.000" saturation="0.940" value="0.990" />
+    <colour name="Shocking pink (Crayola)" hue="300.000" saturation="0.560" value="1.000" />
+    <colour name="Sienna" hue="12.000" saturation="0.830" value="0.530" />
+    <colour name="Silver" hue="0.000" saturation="0.000" value="0.750" />
+    <colour name="Silver" hue="16.364" saturation="0.054" value="0.804" />
+    <colour name="Silver chalice" hue="0.000" saturation="0.000" value="0.670" />
+    <colour name="Silver Lake blue" hue="212.000" saturation="0.500" value="0.730" />
+    <colour name="Silver pink" hue="3.000" saturation="0.120" value="0.770" />
+    <colour name="Silver sand" hue="200.000" saturation="0.020" value="0.760" />
+    <colour name="Sinopia" hue="17.000" saturation="0.950" value="0.800" />
+    <colour name="Skobeloff" hue="180.000" saturation="1.000" value="0.450" />
+    <colour name="Sky Blue" hue="189.533" saturation="0.455" value="0.922" />
+    <colour name="Sky blue" hue="197.000" saturation="0.430" value="0.920" />
+    <colour name="Sky magenta" hue="320.000" saturation="0.450" value="0.810" />
+    <colour name="Slate blue" hue="248.000" saturation="0.560" value="0.800" />
+    <colour name="Slate gray" hue="210.000" saturation="0.220" value="0.560" />
+    <colour name="Smalt (Dark powder blue)" hue="220.000" saturation="1.000" value="0.600" />
+    <colour name="Smitten" hue="329.000" saturation="0.680" value="0.780" />
+    <colour name="Smoke" hue="132.000" saturation="0.120" value="0.510" />
+    <colour name="Smoky black" hue="30.000" saturation="0.500" value="0.060" />
+    <colour name="Smoky Topaz" hue="357.000" saturation="0.590" value="0.580" />
+    <colour name="Snow" hue="0.000" saturation="0.020" value="1.000" />
+    <colour name="Soap" hue="249.000" saturation="0.160" value="0.940" />
+    <colour name="Solid pink" hue="352.000" saturation="0.590" value="0.540" />
+    <colour name="Sonic silver" hue="0.000" saturation="0.000" value="0.460" />
+    <colour name="Space cadet" hue="226.000" saturation="0.640" value="0.320" />
+    <colour name="Spanish bistre" hue="52.000" saturation="0.610" value="0.500" />
+    <colour name="Spanish blue" hue="203.000" saturation="1.000" value="0.720" />
+    <colour name="Spanish carmine" hue="340.000" saturation="1.000" value="0.820" />
+    <colour name="Spanish crimson" hue="345.000" saturation="0.890" value="0.900" />
+    <colour name="Spanish gray" hue="0.000" saturation="0.000" value="0.600" />
+    <colour name="Spanish green" hue="153.000" saturation="1.000" value="0.570" />
+    <colour name="Spanish orange" hue="25.000" saturation="1.000" value="0.910" />
+    <colour name="Spanish pink" hue="1.000" saturation="0.230" value="0.970" />
+    <colour name="Spanish red" hue="350.000" saturation="1.000" value="0.900" />
+    <colour name="Spanish sky blue" hue="180.000" saturation="1.000" value="1.000" />
+    <colour name="Spanish violet" hue="264.000" saturation="0.690" value="0.510" />
+    <colour name="Spanish viridian" hue="163.000" saturation="1.000" value="0.500" />
+    <colour name="Spartan Crimson" hue="359.000" saturation="0.880" value="0.620" />
+    <colour name="Spicy mix" hue="17.000" saturation="0.450" value="0.550" />
+    <colour name="Spiro Disco Ball" hue="195.000" saturation="0.940" value="0.990" />
+    <colour name="Spring bud" hue="80.000" saturation="1.000" value="0.990" />
+    <colour name="Spring green" hue="150.000" saturation="1.000" value="1.000" />
+    <colour name="Spring Green" hue="57.391" saturation="0.195" value="0.925" />
+    <colour name="Star command blue" hue="200.000" saturation="1.000" value="0.720" />
+    <colour name="Steel blue" hue="207.000" saturation="0.610" value="0.710" />
+    <colour name="Steel pink" hue="300.000" saturation="0.750" value="0.800" />
+    <colour name="Stil de grain yellow" hue="48.000" saturation="0.620" value="0.980" />
+    <colour name="Stizza" hue="0.000" saturation="1.000" value="0.600" />
+    <colour name="Stormcloud" hue="189.000" saturation="0.250" value="0.420" />
+    <colour name="St. Patrick's blue" hue="236.000" saturation="0.710" value="0.480" />
+    <colour name="Straw" hue="54.000" saturation="0.510" value="0.890" />
+    <colour name="Strawberry" hue="341.000" saturation="0.640" value="0.990" />
+    <colour name="Sunglow" hue="44.262" saturation="0.718" value="1.000" />
+    <colour name="Sunglow" hue="45.000" saturation="0.800" value="1.000" />
+    <colour name="Sunray" hue="36.000" saturation="0.620" value="0.890" />
+    <colour name="Sunset" hue="35.000" saturation="0.340" value="0.980" />
+    <colour name="Sunset Orange" hue="3.882" saturation="0.672" value="0.992" />
+    <colour name="Sunset orange" hue="4.000" saturation="0.670" value="0.990" />
+    <colour name="Super pink" hue="323.000" saturation="0.480" value="0.810" />
+    <colour name="Tan" hue="24.930" saturation="0.568" value="0.980" />
+    <colour name="Tan" hue="34.000" saturation="0.330" value="0.820" />
+    <colour name="Tangelo" hue="19.000" saturation="1.000" value="0.980" />
+    <colour name="Tangerine" hue="33.000" saturation="1.000" value="0.950" />
+    <colour name="Tangerine yellow" hue="48.000" saturation="1.000" value="1.000" />
+    <colour name="Tango pink" hue="355.000" saturation="0.500" value="0.890" />
+    <colour name="Taupe" hue="27.000" saturation="0.310" value="0.280" />
+    <colour name="Taupe gray" hue="320.000" saturation="0.040" value="0.550" />
+    <colour name="Tea green" hue="100.000" saturation="0.200" value="0.940" />
+    <colour name="Teal" hue="180.000" saturation="1.000" value="0.500" />
+    <colour name="Teal blue" hue="194.000" saturation="0.600" value="0.530" />
+    <colour name="Teal deer" hue="140.000" saturation="0.330" value="0.900" />
+    <colour name="Teal green" hue="179.000" saturation="1.000" value="0.510" />
+    <colour name="Tea rose" hue="0.000" saturation="0.200" value="0.960" />
+    <colour name="Tea rose" hue="5.000" saturation="0.510" value="0.970" />
+    <colour name="Telemagenta" hue="334.000" saturation="0.750" value="0.810" />
+    <colour name="Tenné" hue="25.000" saturation="1.000" value="0.800" />
+    <colour name="Terra cotta" hue="10.000" saturation="0.600" value="0.890" />
+    <colour name="Thistle" hue="300.000" saturation="0.120" value="0.850" />
+    <colour name="Thulian pink" hue="333.000" saturation="0.500" value="0.870" />
+    <colour name="Tickle Me Pink" hue="341.739" saturation="0.456" value="0.988" />
+    <colour name="Tickle Me Pink" hue="342.000" saturation="0.460" value="0.990" />
+    <colour name="Tiffany Blue" hue="178.000" saturation="0.950" value="0.730" />
+    <colour name="Tiger's eye" hue="30.000" saturation="0.730" value="0.880" />
+    <colour name="Timberwolf" hue="33.000" saturation="0.040" value="0.860" />
+    <colour name="Timberwolf" hue="33.333" saturation="0.041" value="0.859" />
+    <colour name="Titanium yellow" hue="58.000" saturation="1.000" value="0.930" />
+    <colour name="Tomato" hue="9.000" saturation="0.720" value="1.000" />
+    <colour name="Toolbox" hue="246.000" saturation="0.440" value="0.750" />
+    <colour name="Topaz" hue="35.000" saturation="0.510" value="1.000" />
+    <colour name="Tractor red" hue="350.000" saturation="0.940" value="0.990" />
+    <colour name="Trolley Grey" hue="0.000" saturation="0.000" value="0.500" />
+    <colour name="Tropical Rain Forest" hue="109.143" saturation="0.820" value="0.502" />
+    <colour name="Tropical rain forest" hue="168.000" saturation="1.000" value="0.460" />
+    <colour name="Tropical violet" hue="282.000" saturation="0.260" value="0.870" />
+    <colour name="True Blue" hue="207.000" saturation="1.000" value="0.810" />
+    <colour name="Tufts Blue" hue="212.000" saturation="0.660" value="0.760" />
+    <colour name="Tulip" hue="357.000" saturation="0.470" value="1.000" />
+    <colour name="Tumbleweed" hue="23.721" saturation="0.387" value="0.871" />
+    <colour name="Tumbleweed" hue="24.000" saturation="0.390" value="0.870" />
+    <colour name="Turkish rose" hue="347.000" saturation="0.370" value="0.710" />
+    <colour name="Turquoise" hue="174.000" saturation="0.710" value="0.880" />
+    <colour name="Turquoise blue" hue="176.000" saturation="1.000" value="1.000" />
+    <colour name="Turquoise Blue" hue="185.357" saturation="0.485" value="0.906" />
+    <colour name="Turquoise green" hue="142.000" saturation="0.250" value="0.840" />
+    <colour name="Tuscan" hue="35.000" saturation="0.340" value="0.980" />
+    <colour name="Tuscan brown" hue="25.000" saturation="0.500" value="0.440" />
+    <colour name="Tuscan red" hue="0.000" saturation="0.420" value="0.490" />
+    <colour name="Tuscan tan" hue="26.000" saturation="0.450" value="0.650" />
+    <colour name="Tuscany" hue="0.000" saturation="0.200" value="0.750" />
+    <colour name="Twilight lavender" hue="329.000" saturation="0.470" value="0.540" />
+    <colour name="Tyrian purple" hue="325.000" saturation="0.980" value="0.400" />
+    <colour name="UA blue" hue="222.000" saturation="1.000" value="0.670" />
+    <colour name="UA red" hue="339.000" saturation="1.000" value="0.850" />
+    <colour name="Ube" hue="253.000" saturation="0.380" value="0.760" />
+    <colour name="UCLA Blue" hue="221.000" saturation="0.440" value="0.580" />
+    <colour name="UCLA Gold" hue="42.000" saturation="1.000" value="1.000" />
+    <colour name="UFO Green" hue="141.000" saturation="0.710" value="0.820" />
+    <colour name="Ultramarine" hue="244.000" saturation="0.930" value="0.560" />
+    <colour name="Ultramarine blue" hue="228.000" saturation="0.730" value="0.960" />
+    <colour name="Ultra pink" hue="300.000" saturation="0.560" value="1.000" />
+    <colour name="Ultra red" hue="350.000" saturation="0.570" value="0.990" />
+    <colour name="Umber" hue="21.000" saturation="0.280" value="0.390" />
+    <colour name="Unbleached silk" hue="22.000" saturation="0.210" value="1.000" />
+    <colour name="United Nations blue" hue="216.000" saturation="0.600" value="0.900" />
+    <colour name="University of California Gold" hue="40.000" saturation="0.790" value="0.720" />
+    <colour name="University of Tennessee Orange" hue="31.000" saturation="1.000" value="0.970" />
+    <colour name="Unmellow Yellow" hue="60.000" saturation="0.600" value="1.000" />
+    <colour name="Unmellow yellow" hue="60.000" saturation="0.600" value="1.000" />
+    <colour name="UP Forest green" hue="149.000" saturation="0.990" value="0.270" />
+    <colour name="UP Maroon" hue="359.000" saturation="0.860" value="0.480" />
+    <colour name="Upsdell red" hue="356.000" saturation="0.820" value="0.680" />
+    <colour name="Urobilin" hue="44.000" saturation="0.850" value="0.880" />
+    <colour name="USAFA blue" hue="209.000" saturation="1.000" value="0.600" />
+    <colour name="USC Cardinal" hue="0.000" saturation="1.000" value="0.600" />
+    <colour name="USC Gold" hue="48.000" saturation="1.000" value="1.000" />
+    <colour name="Utah Crimson" hue="342.000" saturation="1.000" value="0.830" />
+    <colour name="Vanilla" hue="48.000" saturation="0.300" value="0.950" />
+    <colour name="Vanilla ice" hue="344.000" saturation="0.410" value="0.950" />
+    <colour name="Vegas gold" hue="50.000" saturation="0.550" value="0.770" />
+    <colour name="Venetian red" hue="356.000" saturation="0.960" value="0.780" />
+    <colour name="Verdigris" hue="177.000" saturation="0.630" value="0.700" />
+    <colour name="Vermilion" hue="5.000" saturation="0.770" value="0.890" />
+    <colour name="Vermilion" hue="8.000" saturation="0.860" value="0.850" />
+    <colour name="Veronica" hue="277.000" saturation="0.870" value="0.940" />
+    <colour name="Very light azure" hue="208.000" saturation="0.540" value="0.980" />
+    <colour name="Very light blue" hue="240.000" saturation="0.600" value="1.000" />
+    <colour name="Very light malachite green" hue="135.000" saturation="0.570" value="0.910" />
+    <colour name="Very light tangelo" hue="25.000" saturation="0.530" value="1.000" />
+    <colour name="Very pale orange" hue="30.000" saturation="0.250" value="1.000" />
+    <colour name="Very pale yellow" hue="60.000" saturation="0.250" value="1.000" />
+    <colour name="Violet" hue="274.000" saturation="1.000" value="1.000" />
+    <colour name="Violet-blue" hue="229.000" saturation="0.720" value="0.700" />
+    <colour name="Violet (color wheel)" hue="270.000" saturation="1.000" value="1.000" />
+    <colour name="Violet (Purple)" hue="273.750" saturation="0.368" value="0.682" />
+    <colour name="Violet-red" hue="336.000" saturation="0.660" value="0.970" />
+    <colour name="Violet Red" hue="336.220" saturation="0.664" value="0.969" />
+    <colour name="Violet (RYB)" hue="286.000" saturation="0.990" value="0.690" />
+    <colour name="Violet (web)" hue="300.000" saturation="0.450" value="0.930" />
+    <colour name="Viridian" hue="161.000" saturation="0.510" value="0.510" />
+    <colour name="Viridian green" hue="181.000" saturation="1.000" value="0.600" />
+    <colour name="Vista blue" hue="218.000" saturation="0.430" value="0.850" />
+    <colour name="Vivid amber" hue="45.000" saturation="1.000" value="0.800" />
+    <colour name="Vivid auburn" hue="2.000" saturation="0.750" value="0.570" />
+    <colour name="Vivid burgundy" hue="349.000" saturation="0.820" value="0.620" />
+    <colour name="Vivid cerise" hue="328.000" saturation="0.870" value="0.850" />
+    <colour name="Vivid cerulean" hue="197.000" saturation="1.000" value="0.930" />
+    <colour name="Vivid crimson" hue="345.000" saturation="1.000" value="0.800" />
+    <colour name="Vivid gamboge" hue="36.000" saturation="1.000" value="1.000" />
+    <colour name="Vivid lime green" hue="74.000" saturation="0.960" value="0.840" />
+    <colour name="Vivid malachite" hue="135.000" saturation="1.000" value="0.800" />
+    <colour name="Vivid mulberry" hue="288.000" saturation="0.950" value="0.890" />
+    <colour name="Vivid orange" hue="22.000" saturation="1.000" value="1.000" />
+    <colour name="Vivid orange peel" hue="18.000" saturation="1.000" value="1.000" />
+    <colour name="Vivid orchid" hue="288.000" saturation="1.000" value="1.000" />
+    <colour name="Vivid raspberry" hue="335.000" saturation="1.000" value="1.000" />
+    <colour name="Vivid red" hue="357.000" saturation="0.950" value="0.970" />
+    <colour name="Vivid red-tangelo" hue="20.000" saturation="0.840" value="0.870" />
+    <colour name="Vivid sky blue" hue="192.000" saturation="1.000" value="1.000" />
+    <colour name="Vivid tangelo" hue="23.000" saturation="0.840" value="0.940" />
+    <colour name="Vivid Tangerine" hue="11.695" saturation="0.463" value="1.000" />
+    <colour name="Vivid tangerine" hue="12.000" saturation="0.460" value="1.000" />
+    <colour name="Vivid vermilion" hue="19.000" saturation="0.840" value="0.900" />
+    <colour name="Vivid violet" hue="277.000" saturation="1.000" value="1.000" />
+    <colour name="Vivid Violet" hue="289.091" saturation="0.490" value="0.616" />
+    <colour name="Vivid yellow" hue="53.000" saturation="0.990" value="1.000" />
+    <colour name="Volt" hue="72.000" saturation="1.000" value="1.000" />
+    <colour name="Warm black" hue="180.000" saturation="1.000" value="0.250" />
+    <colour name="Waterspout" hue="184.000" saturation="0.340" value="0.980" />
+    <colour name="Wenge" hue="7.000" saturation="0.180" value="0.390" />
+    <colour name="Wheat" hue="39.000" saturation="0.270" value="0.960" />
+    <colour name="White" hue="0.000" saturation="0.000" value="1.000" />
+    <colour name="White smoke" hue="0.000" saturation="0.000" value="0.960" />
+    <colour name="Wild Blue Yonder" hue="225.652" saturation="0.221" value="0.816" />
+    <colour name="Wild blue yonder" hue="226.000" saturation="0.220" value="0.820" />
+    <colour name="Wild orchid" hue="330.000" saturation="0.470" value="0.830" />
+    <colour name="Wild Strawberry" hue="329.000" saturation="0.740" value="1.000" />
+    <colour name="Wild Strawberry" hue="329.043" saturation="0.737" value="1.000" />
+    <colour name="Wild Watermelon" hue="349.583" saturation="0.571" value="0.988" />
+    <colour name="Wild watermelon" hue="350.000" saturation="0.570" value="0.990" />
+    <colour name="Willpower orange" hue="21.000" saturation="1.000" value="0.990" />
+    <colour name="Windsor tan" hue="30.000" saturation="0.990" value="0.650" />
+    <colour name="Wine" hue="353.000" saturation="0.590" value="0.450" />
+    <colour name="Wine dregs" hue="336.000" saturation="0.520" value="0.400" />
+    <colour name="Wisteria" hue="281.000" saturation="0.270" value="0.860" />
+    <colour name="Wisteria" hue="282.414" saturation="0.261" value="0.871" />
+    <colour name="Wood brown" hue="33.000" saturation="0.450" value="0.760" />
+    <colour name="Xanadu" hue="136.000" saturation="0.140" value="0.530" />
+    <colour name="Yale Blue" hue="212.000" saturation="0.900" value="0.570" />
+    <colour name="Yankees blue" hue="221.000" saturation="0.570" value="0.250" />
+    <colour name="Yellow" hue="50.083" saturation="0.480" value="0.988" />
+    <colour name="Yellow" hue="60.000" saturation="1.000" value="1.000" />
+    <colour name="Yellow (Crayola)" hue="50.000" saturation="0.480" value="0.990" />
+    <colour name="Yellow Green" hue="60.000" saturation="0.419" value="0.890" />
+    <colour name="Yellow-green" hue="80.000" saturation="0.760" value="0.800" />
+    <colour name="Yellow (Munsell)" hue="51.000" saturation="1.000" value="0.940" />
+    <colour name="Yellow (NCS)" hue="50.000" saturation="1.000" value="1.000" />
+    <colour name="Yellow Orange" hue="34.000" saturation="0.740" value="1.000" />
+    <colour name="Yellow Orange" hue="34.286" saturation="0.741" value="1.000" />
+    <colour name="Yellow (Pantone)" hue="53.000" saturation="1.000" value="1.000" />
+    <colour name="Yellow (process)" hue="56.000" saturation="1.000" value="1.000" />
+    <colour name="Yellow rose" hue="56.000" saturation="1.000" value="1.000" />
+    <colour name="Yellow (RYB)" hue="60.000" saturation="0.800" value="1.000" />
+    <colour name="Zaffre" hue="233.000" saturation="1.000" value="0.660" />
+    <colour name="Zinnwaldite brown" hue="23.000" saturation="0.820" value="0.170" />
+    <colour name="Zomp" hue="166.000" saturation="0.660" value="0.650" />
+    <colour name="一斤染 (Ikkonzome)" hue="359.381" saturation="0.404" value="0.941" />
+    <colour name="丁子染 (Chōjizome)" hue="24.202" saturation="0.704" value="0.663" />
+    <colour name="丁子茶 (Chōjicha)" hue="20.241" saturation="0.580" value="0.561" />
+    <colour name="中紅 (Nakabeni)" hue="347.260" saturation="0.726" value="0.788" />
+    <colour name="丼鼠 (Dobunezumi)" hue="10.000" saturation="0.240" value="0.294" />
+    <colour name="二藍 (Futaai)" hue="275.625" saturation="0.291" value="0.431" />
+    <colour name="代赭色 (Taisha-iro)" hue="17.222" saturation="0.679" value="0.624" />
+    <colour name="似せ紫 (Nisemurasaki)" hue="348.387" saturation="0.463" value="0.263" />
+    <colour name="伽羅色 (Kyara-iro)" hue="21.639" saturation="0.575" value="0.416" />
+    <colour name="利休白茶 (Rikyūshiracha)" hue="26.667" saturation="0.307" value="0.690" />
+    <colour name="利休茶 (Rikyūcha)" hue="27.143" saturation="0.323" value="0.510" />
+    <colour name="利休鼠 (Rikyūnezumi)" hue="48.750" saturation="0.158" value="0.396" />
+    <colour name="千歳緑 (Sensaimidori)" hue="60.000" saturation="0.258" value="0.259" />
+    <colour name="千歳茶 (Sensaicha)" hue="36.667" saturation="0.305" value="0.231" />
+    <colour name="千草色 (Chigusa-iro)" hue="193.636" saturation="0.642" value="0.537" />
+    <colour name="半色 (Hashita-iro)" hue="301.333" saturation="0.319" value="0.553" />
+    <colour name="唐紅/韓紅 (Karakurenai)" hue="351.529" saturation="0.846" value="0.788" />
+    <colour name="唐茶 (Karacha)" hue="12.973" saturation="0.620" value="0.702" />
+    <colour name="墨色 (Sumi-iro)" hue="22.500" saturation="0.205" value="0.153" />
+    <colour name="女郎花 (Ominaeshi)" hue="49.500" saturation="0.922" value="0.851" />
+    <colour name="媚茶 (Kobicha)" hue="27.500" saturation="0.673" value="0.420" />
+    <colour name="宍色 (Shishi-iro)" hue="14.348" saturation="0.554" value="0.976" />
+    <colour name="宗傳唐茶 (Sōdenkaracha)" hue="13.043" saturation="0.594" value="0.608" />
+    <colour name="小豆色 (Azuki-iro)" hue="1.739" saturation="0.670" value="0.404" />
+    <colour name="山吹色 (Yamabuki-iro)" hue="38.588" saturation="1.000" value="1.000" />
+    <colour name="山吹茶 (Yamabukicha)" hue="33.140" saturation="0.847" value="0.796" />
+    <colour name="岩井茶 (Iwaicha)" hue="38.400" saturation="0.266" value="0.369" />
+    <colour name="御召御納戸 (Omeshionando)" hue="195.000" saturation="0.247" value="0.318" />
+    <colour name="御召茶 (Omeshicha)" hue="112.800" saturation="0.321" value="0.306" />
+    <colour name="御納戸色 (Onando-iro)" hue="120.000" saturation="0.169" value="0.255" />
+    <colour name="御納戸茶 (Onandocha)" hue="60.000" saturation="0.172" value="0.251" />
+    <colour name="憲法染 (Kenpōzome)" hue="18.947" saturation="0.413" value="0.180" />
+    <colour name="新橋色 (Shinbashi-iro)" hue="188.976" saturation="1.000" value="0.498" />
+    <colour name="曙色 (Akebono-iro)" hue="9.868" saturation="0.608" value="0.980" />
+    <colour name="木賊色 (Tokusa-iro)" hue="69.375" saturation="0.344" value="0.365" />
+    <colour name="朽葉色 (Kuchiba-iro)" hue="25.125" saturation="0.751" value="0.835" />
+    <colour name="杜若 (Kakitsubata)" hue="318.140" saturation="0.589" value="0.286" />
+    <colour name="松葉色 (Matsuba-iro)" hue="60.000" saturation="0.351" value="0.302" />
+    <colour name="枇杷茶 (Biwacha)" hue="22.689" saturation="0.696" value="0.671" />
+    <colour name="柳染 (Yanagizome)" hue="60.000" saturation="0.405" value="0.620" />
+    <colour name="柳煤竹 (Yanagisusutake)" hue="53.684" saturation="0.247" value="0.302" />
+    <colour name="柳茶 (Yanagicha)" hue="46.329" saturation="0.506" value="0.612" />
+    <colour name="柳鼠 (Yanaginezumi)" hue="45.000" saturation="0.186" value="0.506" />
+    <colour name="柴染 (Fushizome)" hue="23.133" saturation="0.593" value="0.549" />
+    <colour name="柿渋色 (Kakishibu-iro)" hue="7.826" saturation="0.626" value="0.576" />
+    <colour name="栗梅 (Kiriume)" hue="5.106" saturation="0.676" value="0.545" />
+    <colour name="栗皮茶 (Kurikawacha)" hue="9.091" saturation="0.688" value="0.376" />
+    <colour name="桃色 (Momo-iro)" hue="355.122" saturation="0.504" value="0.957" />
+    <colour name="桑染 (Kuwazome)" hue="32.185" saturation="0.766" value="0.773" />
+    <colour name="桑染 (Kuwazome)" hue="356.250" saturation="0.539" value="0.349" />
+    <colour name="桔梗色 (Kikyō-iro)" hue="281.860" saturation="0.406" value="0.416" />
+    <colour name="桜色 (Sakura-iro)" hue="14.328" saturation="0.266" value="0.988" />
+    <colour name="桜鼠 (Sakuranezumi)" hue="0.000" saturation="0.250" value="0.675" />
+    <colour name="梅幸茶 (Baikōcha)" hue="48.750" saturation="0.361" value="0.522" />
+    <colour name="梅染 (Umezome)" hue="21.481" saturation="0.648" value="0.980" />
+    <colour name="梅紫 (Umemurasaki)" hue="344.615" saturation="0.545" value="0.561" />
+    <colour name="梅鼠 (Umenezumi)" hue="9.836" saturation="0.404" value="0.592" />
+    <colour name="梔子 (Kuchinashi)" hue="34.545" saturation="0.647" value="1.000" />
+    <colour name="樺茶 (Kabacha)" hue="12.093" saturation="0.729" value="0.694" />
+    <colour name="檜皮色 (Hihada-iro)" hue="8.049" saturation="0.701" value="0.459" />
+    <colour name="檳榔子染 (Binrōjizome)" hue="15.000" saturation="0.302" value="0.208" />
+    <colour name="櫨染 (Hajizome)" hue="33.402" saturation="0.866" value="0.878" />
+    <colour name="水がき (Mizugaki)" hue="8.471" saturation="0.470" value="0.710" />
+    <colour name="水浅葱 (Mizuasagi)" hue="94.884" saturation="0.270" value="0.624" />
+    <colour name="水色 (Mizu-iro)" hue="110.270" saturation="0.216" value="0.671" />
+    <colour name="江戸茶 (Edocha)" hue="8.276" saturation="0.720" value="0.631" />
+    <colour name="沈香茶 (Tonocha)" hue="60.000" saturation="0.130" value="0.392" />
+    <colour name="洒落柿 (Sharegaki)" hue="22.297" saturation="0.580" value="1.000" />
+    <colour name="洗朱 (Araishu)" hue="13.526" saturation="0.678" value="1.000" />
+    <colour name="洗柿 (Araigaki)" hue="18.158" saturation="0.644" value="0.925" />
+    <colour name="浅葱色 (Asagi-iro)" hue="186.506" saturation="0.535" value="0.608" />
+    <colour name="浅黄 (Asagi)" hue="30.492" saturation="0.494" value="0.969" />
+    <colour name="海松色 (Miru-iro)" hue="49.500" saturation="0.488" value="0.322" />
+    <colour name="海松茶 (Mirucha)" hue="27.857" saturation="0.368" value="0.298" />
+    <colour name="海老茶 (Ebicha)" hue="4.138" saturation="0.617" value="0.369" />
+    <colour name="淡萌黄 (Usumoegi)" hue="60.000" saturation="0.522" value="0.698" />
+    <colour name="淡香 (Usukō)" hue="24.935" saturation="0.604" value="1.000" />
+    <colour name="深支子 (Kokikuchinashi)" hue="17.349" saturation="0.678" value="0.961" />
+    <colour name="深紫 (Kokimurasaki)" hue="297.391" saturation="0.390" value="0.231" />
+    <colour name="深緋 (Kokiake)" hue="0.923" saturation="0.528" value="0.482" />
+    <colour name="湊鼠 (Minatonezumi)" hue="60.000" saturation="0.064" value="0.490" />
+    <colour name="滅紫 (Metsushi)" hue="321.429" saturation="0.222" value="0.247" />
+    <colour name="灰汁色 (Aku-iro)" hue="24.706" saturation="0.268" value="0.498" />
+    <colour name="焦茶 (Kogecha)" hue="12.857" saturation="0.528" value="0.208" />
+    <colour name="煎茶色 (Sencha-iro)" hue="17.143" saturation="0.592" value="0.510" />
+    <colour name="煤竹色 (Susutake-iro)" hue="22.800" saturation="0.562" value="0.349" />
+    <colour name="照柿 (Terigaki)" hue="9.172" saturation="0.744" value="0.827" />
+    <colour name="熨斗目花色 (Noshimehana-iro)" hue="195.882" saturation="0.395" value="0.337" />
+    <colour name="牡丹 (Bōtan)" hue="338.036" saturation="0.683" value="0.643" />
+    <colour name="狐色 (Kitsune-iro)" hue="24.324" saturation="0.730" value="0.596" />
+    <colour name="猩々緋 (Shōjōhi)" hue="4.216" saturation="0.841" value="0.863" />
+    <colour name="玉子色 (Tamago-iro)" hue="34.078" saturation="0.808" value="1.000" />
+    <colour name="玉蜀黍色 (Tōmorokoshi-iro)" hue="33.149" saturation="0.724" value="0.980" />
+    <colour name="珊瑚色 (Sango-iro)" hue="8.521" saturation="0.681" value="0.973" />
+    <colour name="琥珀色 (Kohaku-iro)" hue="24.940" saturation="0.822" value="0.792" />
+    <colour name="瑠璃紺 (Rurikon)" hue="222.500" saturation="0.640" value="0.294" />
+    <colour name="瑠璃色 (Ruri-iro)" hue="217.143" saturation="0.772" value="0.533" />
+    <colour name="璃寛茶 (Rikancha)" hue="43.636" saturation="0.398" value="0.325" />
+    <colour name="瓶覗 (Kamenozoki)" hue="45.000" saturation="0.081" value="0.776" />
+    <colour name="甚三紅 (Jinzamomi)" hue="4.586" saturation="0.636" value="0.969" />
+    <colour name="生壁色 (Namakabe-iro)" hue="26.809" saturation="0.392" value="0.471" />
+    <colour name="白橡 (Shirotsurubami)" hue="30.316" saturation="0.461" value="0.808" />
+    <colour name="白緑 (Byakuroku)" hue="60.000" saturation="0.210" value="0.729" />
+    <colour name="白練 (Shironeri)" hue="21.509" saturation="0.208" value="1.000" />
+    <colour name="白茶 (Shiracha)" hue="24.396" saturation="0.464" value="0.769" />
+    <colour name="白鼠 (Shironezumi)" hue="22.105" saturation="0.205" value="0.725" />
+    <colour name="百塩茶 (Momoshiocha)" hue="11.250" saturation="0.571" value="0.329" />
+    <colour name="真朱 (Shinshu)" hue="357.895" saturation="0.797" value="0.561" />
+    <colour name="礪茶 (Tonocha)" hue="18.125" saturation="0.632" value="0.596" />
+    <colour name="空色 (Sora-iro)" hue="198.316" saturation="0.552" value="0.675" />
+    <colour name="紅掛花色 (Benikakehana-iro)" hue="257.838" saturation="0.319" value="0.455" />
+    <colour name="紅柄色 (Bengara-iro)" hue="7.222" saturation="0.745" value="0.569" />
+    <colour name="紅梅色 (Kōbai-iro)" hue="352.093" saturation="0.589" value="0.859" />
+    <colour name="紅樺 (Benikaba)" hue="4.390" saturation="0.783" value="0.616" />
+    <colour name="紅檜皮 (Benihibata)" hue="6.761" saturation="0.640" value="0.435" />
+    <colour name="紅消鼠 (Benikeshinezumi)" hue="8.182" saturation="0.324" value="0.267" />
+    <colour name="紅碧 (Benimidori)" hue="241.667" saturation="0.232" value="0.608" />
+    <colour name="紅緋 (Benihi)" hue="9.206" saturation="0.778" value="0.953" />
+    <colour name="紅藤 (Benifuji)" hue="332.647" saturation="0.364" value="0.733" />
+    <colour name="紅鬱金 (Beniukon)" hue="22.843" saturation="0.785" value="0.984" />
+    <colour name="紅鳶 (Benitobi)" hue="5.714" saturation="0.724" value="0.569" />
+    <colour name="素鼠 (Sunezumi)" hue="20.870" saturation="0.209" value="0.431" />
+    <colour name="紫 (Murasaki)" hue="306.154" saturation="0.494" value="0.310" />
+    <colour name="紫紺 (Shikon)" hue="316.364" saturation="0.256" value="0.169" />
+    <colour name="紫苑色 (Shion-iro)" hue="295.909" saturation="0.286" value="0.604" />
+    <colour name="紫鳶 (Murasakitobi)" hue="351.892" saturation="0.457" value="0.318" />
+    <colour name="紺 (Kon)" hue="221.379" saturation="0.537" value="0.212" />
+    <colour name="紺桔梗 (Konkikyō)" hue="231.818" saturation="0.638" value="0.271" />
+    <colour name="紺青色 (Konjō-iro)" hue="213.982" saturation="1.000" value="0.443" />
+    <colour name="緋 (Ake)" hue="7.719" saturation="0.826" value="0.812" />
+    <colour name="緑 (Midori)" hue="78.889" saturation="0.563" value="0.376" />
+    <colour name="緑青 (Rokushō)" hue="78.621" saturation="0.475" value="0.478" />
+    <colour name="縹 (Hanada)" hue="194.545" saturation="0.961" value="0.404" />
+    <colour name="群青色 (Gunjō-iro)" hue="205.185" saturation="0.466" value="0.682" />
+    <colour name="老竹色 (Oitake-iro)" hue="60.000" saturation="0.210" value="0.392" />
+    <colour name="肥後煤竹 (Higosusutake)" hue="30.000" saturation="0.535" value="0.498" />
+    <colour name="胡桃染 (Kurumizome)" hue="17.705" saturation="0.384" value="0.624" />
+    <colour name="臙脂色 (Enji-iro)" hue="354.828" saturation="0.739" value="0.616" />
+    <colour name="舛花色 (Masuhana-iro)" hue="195.484" saturation="0.287" value="0.424" />
+    <colour name="芝翫茶 (Shikancha)" hue="8.182" saturation="0.643" value="0.671" />
+    <colour name="花浅葱 (Hana'asagi)" hue="192.000" saturation="0.766" value="0.486" />
+    <colour name="花葉色 (Hanaba-iro or kayou-iro)" hue="36.271" saturation="0.694" value="1.000" />
+    <colour name="苅萱 (Kariyasu)" hue="42.289" saturation="0.735" value="0.886" />
+    <colour name="苔色 (Koke-iro)" hue="49.630" saturation="0.583" value="0.545" />
+    <colour name="若竹色 (Wakatake-iro)" hue="60.000" saturation="0.333" value="0.576" />
+    <colour name="ときがら茶 (Tokigaracha)" hue="14.308" saturation="0.565" value="0.902" />
+    <colour name="菖蒲色 (Ayame-iro)" hue="312.923" saturation="0.551" value="0.463" />
+    <colour name="菜種油色 (Nataneyu-iro)" hue="42.609" saturation="0.857" value="0.631" />
+    <colour name="菜の花色 (Nanohanacha)" hue="43.240" saturation="0.789" value="0.890" />
+    <colour name="菫色 (Sumire-iro)" hue="307.317" saturation="0.451" value="0.357" />
+    <colour name="萌黄 (Moegi)" hue="60.000" saturation="0.650" value="0.537" />
+    <colour name="萱草色 (Kanzō-iro)" hue="24.776" saturation="0.788" value="1.000" />
+    <colour name="葡萄鼠 (Budōnezumi)" hue="343.636" saturation="0.333" value="0.388" />
+    <colour name="蒲色 (Kaba-iro)" hue="14.897" saturation="0.797" value="0.714" />
+    <colour name="蒲萄 (Ebizome)" hue="326.364" saturation="0.606" value="0.427" />
+    <colour name="蒸栗色 (Mushikuri-iro)" hue="36.279" saturation="0.408" value="0.827" />
+    <colour name="薄柿 (Usugaki)" hue="21.176" saturation="0.540" value="0.988" />
+    <colour name="薄紅 (Usubeni)" hue="357.429" saturation="0.579" value="0.949" />
+    <colour name="薄色 (Usu-iro)" hue="310.909" saturation="0.262" value="0.659" />
+    <colour name="薄青 (Usuao)" hue="60.000" saturation="0.244" value="0.612" />
+    <colour name="藍墨茶 (Aisumicha)" hue="17.143" saturation="0.123" value="0.224" />
+    <colour name="藍媚茶 (Aikobicha)" hue="41.538" saturation="0.366" value="0.278" />
+    <colour name="藍海松茶 (Aimirucha)" hue="60.000" saturation="0.164" value="0.216" />
+    <colour name="藍白 (Aijiro)" hue="185.000" saturation="0.049" value="0.969" />
+    <colour name="藍色 (Ai-iro)" hue="188.824" saturation="0.472" value="0.282" />
+    <colour name="藍鼠 (Ainezumi)" hue="25.714" saturation="0.152" value="0.361" />
+    <colour name="藤煤竹 (Fujisusutake)" hue="356.667" saturation="0.234" value="0.302" />
+    <colour name="藤紫 (Fujimurasaki)" hue="280.678" saturation="0.383" value="0.604" />
+    <colour name="藤色 (Fuji-iro)" hue="271.364" saturation="0.278" value="0.620" />
+    <colour name="藤黄 (Tō'ō)" hue="40.533" saturation="0.882" value="1.000" />
+    <colour name="藤鼠 (Fujinezumi)" hue="273.913" saturation="0.180" value="0.502" />
+    <colour name="蘇比 (Sohi)" hue="12.632" saturation="0.753" value="0.890" />
+    <colour name="蘇芳 (Suō)" hue="347.045" saturation="0.698" value="0.494" />
+    <colour name="蘇芳香 (Suōkō)" hue="5.870" saturation="0.568" value="0.635" />
+    <colour name="虫襖 (Mushiao)" hue="83.478" saturation="0.338" value="0.267" />
+    <colour name="裏柳 (Urahayanagi)" hue="51.250" saturation="0.255" value="0.737" />
+    <colour name="褐色 (Kachi-iro)" hue="227.143" saturation="0.368" value="0.149" />
+    <colour name="赤白橡 (Akashirotsurubami)" hue="19.219" saturation="0.542" value="0.925" />
+    <colour name="赤紅 (Akabeni)" hue="358.462" saturation="0.800" value="0.765" />
+    <colour name="赤香色 (Akakō-iro)" hue="13.562" saturation="0.608" value="0.941" />
+    <colour name="路考茶 (Rokōcha)" hue="27.429" saturation="0.343" value="0.400" />
+    <colour name="退紅 (Arazome)" hue="8.182" saturation="0.345" value="1.000" />
+    <colour name="遠州茶 (Enshūcha)" hue="13.385" saturation="0.640" value="0.796" />
+    <colour name="金茶 (Kincha)" hue="25.660" saturation="0.803" value="0.776" />
+    <colour name="鉄御納戸 (Tetsuonando)" hue="115.000" saturation="0.218" value="0.216" />
+    <colour name="鉄色 (Tetsu-iro)" hue="100.000" saturation="0.218" value="0.216" />
+    <colour name="銀朱 (Ginshu)" hue="1.633" saturation="0.782" value="0.737" />
+    <colour name="銀煤竹 (Kinsusutake)" hue="24.750" saturation="0.640" value="0.490" />
+    <colour name="銀鼠 (Ginnezumi)" hue="22.222" saturation="0.179" value="0.592" />
+    <colour name="錆御納戸 (Sabionando)" hue="183.000" saturation="0.225" value="0.349" />
+    <colour name="錆浅葱 (Sabiasagi)" hue="105.714" saturation="0.165" value="0.498" />
+    <colour name="錆鉄御納戸 (Sabitetsuonando)" hue="70.000" saturation="0.094" value="0.251" />
+    <colour name="錆青磁 (Sabiseiji)" hue="60.000" saturation="0.159" value="0.541" />
+    <colour name="長春色 (Chōshun-iro)" hue="1.782" saturation="0.546" value="0.725" />
+    <colour name="雀茶 (Suzumecha)" hue="11.860" saturation="0.614" value="0.549" />
+    <colour name="青丹 (Aoni)" hue="60.000" saturation="0.337" value="0.349" />
+    <colour name="青朽葉 (Aokuchiba)" hue="41.897" saturation="0.682" value="0.667" />
+    <colour name="青白橡 (Aoshirotsurubami)" hue="42.308" saturation="0.417" value="0.733" />
+    <colour name="青碧 (Seiheki)" hue="108.511" saturation="0.448" value="0.412" />
+    <colour name="青磁色 (Seiji-iro)" hue="82.222" saturation="0.173" value="0.612" />
+    <colour name="青竹色 (Aotake-iro)" hue="99.600" saturation="1.000" value="0.392" />
+    <colour name="青鈍 (Aonibi)" hue="27.273" saturation="0.139" value="0.310" />
+    <colour name="高麗納戸 (Kōrainando)" hue="120.000" saturation="0.429" value="0.220" />
+    <colour name="鬱金色 (Ukon-iro)" hue="33.837" saturation="0.748" value="0.902" />
+    <colour name="鳥の子色 (Torinoko-iro)" hue="27.761" saturation="0.296" value="0.886" />
+    <colour name="鳩羽鼠 (Hatobanezumi)" hue="4.615" saturation="0.222" value="0.459" />
+    <colour name="鳶色 (Tobi-iro)" hue="8.571" saturation="0.645" value="0.298" />
+    <colour name="鴇羽色 (Tokiha-iro)" hue="5.841" saturation="0.461" value="0.961" />
+    <colour name="鶯色 (Uguisu-iro)" hue="42.692" saturation="0.520" value="0.392" />
+    <colour name="鶯茶 (Uguisucha)" hue="37.358" saturation="0.576" value="0.361" />
+    <colour name="鶸色 (Hiwa-iro)" hue="51.946" saturation="0.788" value="0.741" />
+    <colour name="鶸茶 (Hiwacha)" hue="43.226" saturation="0.624" value="0.584" />
+    <colour name="鶸萌黄 (Hiwamoegi)" hue="60.000" saturation="0.689" value="0.580" />
+    <colour name="黄丹 (Ōtan)" hue="12.377" saturation="0.875" value="1.000" />
+    <colour name="黄唐茶 (Kigaracha)" hue="29.130" saturation="0.754" value="0.718" />
+    <colour name="黄土色 (Ōdo-iro)" hue="25.321" saturation="0.574" value="0.745" />
+    <colour name="黄朽葉 (Kikuchiba)" hue="33.248" saturation="0.695" value="0.886" />
+    <colour name="黄橡 (Kitsurubami)" hue="31.475" saturation="0.652" value="0.733" />
+    <colour name="黄櫨染 (Kōrozen)" hue="12.414" saturation="0.652" value="0.349" />
+    <colour name="黄海松茶 (Kimirucha)" hue="38.250" saturation="0.584" value="0.537" />
+    <colour name="黄蘗 (Kihada)" hue="43.784" saturation="0.761" value="0.953" />
+    <colour name="黒橡 (Kurotsurubami)" hue="30.000" saturation="0.108" value="0.145" />
+    <colour name="黒紅 (Kurobeni)" hue="330.000" saturation="0.286" value="0.137" />
+    <colour name="黒色 (Kokushoku)" hue="24.000" saturation="0.217" value="0.090" />
+    <colour name="黒鳶 (Kurotobi)" hue="4.800" saturation="0.472" value="0.208" />
+</colours>
