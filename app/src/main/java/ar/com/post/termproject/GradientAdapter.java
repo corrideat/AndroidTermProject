@@ -12,19 +12,16 @@ public class GradientAdapter extends ArrayAdapter<Gradient> {
     private final Gradient[] mGradients;
 
     public GradientAdapter(Context context, Gradient[] gradients) {
-        super(context, R.layout.gradient_item, gradients);
+        super(context, R.layout.item_gradient, gradients);
         mGradients = gradients;
     }
 
     public static GradientAdapter newInstance(Context context, int steps, Vary vary, float hue_start, float hue_end, float saturation) {
         Gradient[] gradients = new Gradient[steps];
-        System.out.println("gen");
         if (vary == Vary.HUE) {
             float step_size = ((hue_start - hue_end) / steps);
-            System.out.println("VH ss" + step_size);
             for (int i = 0; i < steps; i++) {
                 gradients[i] = new Gradient(hue_start - i * step_size, hue_start - (i + 1) * step_size, 1.0f, 1.0f);
-                System.out.println("hs" + hue_start);
             }
         } else if (vary == Vary.SATURATION) {
             float step_size = (1.0f / steps);
@@ -60,7 +57,7 @@ public class GradientAdapter extends ArrayAdapter<Gradient> {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         if (convertView == null) {
-            convertView = LayoutInflater.from(getContext()).inflate(R.layout.gradient_item, parent, false);
+            convertView = LayoutInflater.from(getContext()).inflate(R.layout.item_gradient, parent, false);
         }
 
         float[][] hsv = {

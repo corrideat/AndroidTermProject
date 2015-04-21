@@ -1,7 +1,6 @@
 package ar.com.post.termproject;
 
 
-import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -31,6 +30,7 @@ public class SwatchFragment extends Fragment {
     private float mSaturation;
     private int mSteps;
     private GradientAdapter.Vary mVary;
+    private Fragment mSubFragment;
 
     public SwatchFragment() {
         // Required empty public constructor
@@ -49,32 +49,34 @@ public class SwatchFragment extends Fragment {
      */
     public static SwatchFragment newInstance(int steps, float hueStart, float hueEnd, float saturation, GradientAdapter.Vary vary) {
         SwatchFragment fragment = new SwatchFragment();
-        Bundle args = new Bundle();
-        args.putInt(ARG_STEPS, steps);
-        args.putFloat(ARG_HUE_START, hueStart);
-        args.putFloat(ARG_HUE_END, hueEnd);
-        args.putFloat(ARG_SATURATION, saturation);
-        args.putSerializable(ARG_VARY, vary);
-        fragment.setArguments(args);
+        Bundle arguments = new Bundle();
+        arguments.putInt(ARG_STEPS, steps);
+        arguments.putFloat(ARG_HUE_START, hueStart);
+        arguments.putFloat(ARG_HUE_END, hueEnd);
+        arguments.putFloat(ARG_SATURATION, saturation);
+        arguments.putSerializable(ARG_VARY, vary);
+        fragment.setArguments(arguments);
         return fragment;
     }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mSteps = getArguments().getInt(ARG_STEPS);
-            mHueStart = getArguments().getFloat(ARG_HUE_START);
-            mHueEnd = getArguments().getFloat(ARG_HUE_END);
-            mSaturation = getArguments().getFloat(ARG_SATURATION);
-            mVary = (GradientAdapter.Vary)getArguments().getSerializable(ARG_VARY);
+        Bundle arguments = getArguments();
+        if (arguments != null) {
+            mSteps = arguments.getInt(ARG_STEPS);
+            mHueStart = arguments.getFloat(ARG_HUE_START);
+            mHueEnd = arguments.getFloat(ARG_HUE_END);
+            mSaturation = arguments.getFloat(ARG_SATURATION);
+            mVary = (GradientAdapter.Vary) arguments.getSerializable(ARG_VARY);
         }
+        //setRetainInstance(true);
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.swatch_fragment, container, false);
+        View view = inflater.inflate(R.layout.fragment_swatch, container, false);
         final ListView listView = (ListView) view.findViewById(R.id.listView);
         listView.setAdapter(GradientAdapter.newInstance(getActivity().getApplicationContext(), mSteps, mVary, mHueStart, mHueEnd, mSaturation));
         if (mVary == GradientAdapter.Vary.HUE) {
@@ -82,9 +84,11 @@ public class SwatchFragment extends Fragment {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                     GradientAdapter adapter = (GradientAdapter) parent.getAdapter();
-                    Fragment fragment = (Fragment) SwatchFragment.newInstance(mSteps, adapter.getHueStart(position), adapter.getHueEnd(position), 1.0f, GradientAdapter.Vary.SATURATION);
+                    mSubFragment = SwatchFragment.newInstance(mSteps, adapter.getHueStart(position), adapter.getHueEnd(position), 1.0f, GradientAdapter.Vary.SATURATION);
                     getActivity().getSupportFragmentManager().beginTransaction()
-                            .add(R.id.fragment_container, fragment).commit();
+                            .add(R.id.fragment_container, mSubFragment)
+                            .addToBackStack("back")
+                            .commit();
                     //((ArrayAdapter) parent.getAdapter()).notifyDataSetChanged();
                 }
             });
@@ -93,9 +97,11 @@ public class SwatchFragment extends Fragment {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                     GradientAdapter adapter = (GradientAdapter) parent.getAdapter();
-                    Fragment fragment = (Fragment) SwatchFragment.newInstance(mSteps, mHueStart, mHueEnd, adapter.getSaturation(position), GradientAdapter.Vary.VALUE);
+                    mSubFragment = SwatchFragment.newInstance(mSteps, mHueStart, mHueEnd, adapter.getSaturation(position), GradientAdapter.Vary.VALUE);
                     getActivity().getSupportFragmentManager().beginTransaction()
-                            .add(R.id.fragment_container, fragment).commit();
+                            .add(R.id.fragment_container, mSubFragment)
+                            .addToBackStack("back")
+                            .commit();
                     //((ArrayAdapter) parent.getAdapter()).notifyDataSetChanged();
                 }
             });
@@ -104,27 +110,27 @@ public class SwatchFragment extends Fragment {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                     GradientAdapter adapter = (GradientAdapter) parent.getAdapter();
-                    Intent intent = new Intent(getActivity().getApplicationContext(), ColourNamesActivity.class);
                     Uri uri = new Uri.Builder()
+                            .scheme("content")
                             .authority(ColourContentProvider.AUTHORITY)
                             .appendPath(ColourContentProvider.BASE_PATH)
-                            .appendPath("args")
+                            .appendPath("query")
                             .appendQueryParameter("lower_hue", String.valueOf(mHueStart))
                             .appendQueryParameter("upper_hue", String.valueOf(mHueEnd))
-                            .appendQueryParameter("lower_saturation", String.valueOf(mSaturation))
-                            .appendQueryParameter("upper_saturation", String.valueOf(mSaturation+1.0f/mSteps))
-                            .appendQueryParameter("lower_value", String.valueOf(adapter.getValue(position)))
-                            .appendQueryParameter("upper_value", String.valueOf(adapter.getValue(position)+1.0f/mSteps))
+                            .appendQueryParameter("lower_saturation", String.valueOf(mSaturation - 1.0f / mSteps))
+                            .appendQueryParameter("upper_saturation", String.valueOf(mSaturation))
+                            .appendQueryParameter("lower_value", String.valueOf(adapter.getValue(position) - 1.0f / mSteps))
+                            .appendQueryParameter("upper_value", String.valueOf(adapter.getValue(position)))
                             .build();
-                    intent.setData(uri);
-                    startActivity(intent);
-                    //((ArrayAdapter) parent.getAdapter()).notifyDataSetChanged();
+                    mSubFragment = ColourNamesFragment.newInstance(uri);
+                    getActivity().getSupportFragmentManager().beginTransaction()
+                            .add(R.id.fragment_container, mSubFragment)
+                            .addToBackStack("back")
+                            .commit();
                 }
             });
         }
 
         return view;
     }
-
-
 }

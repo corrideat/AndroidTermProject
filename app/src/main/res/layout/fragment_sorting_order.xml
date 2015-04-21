@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ar.com.post.termproject.SortingOrderFragment">
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/configure_sorting_order_radio_group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radio_sort_hsv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sort_hsv" />
+
+        <RadioButton
+            android:id="@+id/radio_sort_hvs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sort_hvs" />
+
+        <RadioButton
+            android:id="@+id/radio_sort_shv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sort_shv" />
+
+        <RadioButton
+            android:id="@+id/radio_sort_svh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sort_svh" />
+
+        <RadioButton
+            android:id="@+id/radio_sort_vhs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sort_vhs" />
+
+        <RadioButton
+            android:id="@+id/radio_sort_vsh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sort_vsh" />
+    </RadioGroup>
+
+</FrameLayout>

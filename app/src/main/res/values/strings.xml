@@ -3,6 +3,25 @@
 
     <string name="app_name">TermProject</string>
     <string name="title_activity_colour_names">ColourNames</string>
-    <string name="no_results">No Results</string>
+    <string name="no_results">No Results.</string>
+    <string name="not_found">Colour Not Found.</string>
+    <string name="DYNAMIC">THIS TEXT SHOULD NEVER APPEAR</string>
+    <string name="zwsp">​</string>
+    <string name="title_activity_colour_information">ColourInformationActivity</string>
+    <string name="hsv">HSV: </string>
+    <string name="degree">°</string>
+    <string name="hue_range" formatted="false">H: %.2f°-%.2f°</string>
+    <string name="saturation_range" formatted="false">S: %.2f-%.2f</string>
+    <string name="value_range" formatted="false">V: %.2f-%.2f</string>
+    <string name="separator">, </string>
+    <string name="configure_sorting_order">Configure sorting order</string>
+    <string name="sort_hsv">Hue, Saturation, Value</string>
+    <string name="sort_hvs">Hue, Value, Saturation</string>
+    <string name="sort_shv">Saturation, Hue, Value</string>
+    <string name="sort_svh">Saturation, Value, Hue</string>
+    <string name="sort_vhs">Value, Hue, Saturation</string>
+    <string name="sort_vsh">Value, Saturation, Hue</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
 
 </resources>

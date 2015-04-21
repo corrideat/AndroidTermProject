@@ -12,7 +12,6 @@ import android.net.Uri;
 
 import java.util.Arrays;
 import java.util.HashSet;
-import java.util.List;
 
 public class ColourContentProvider extends ContentProvider {
     static public final String AUTHORITY = "ar.com.post.termproject.colourcontentprovider";
@@ -67,38 +66,45 @@ public class ColourContentProvider extends ContentProvider {
         int uriType = sUriMatcher.match(uri);
         switch (uriType) {
             case COLOUR_ID:
-                queryBuilder.appendWhere(ColoursTable.COLUMN_ID+"=");
+                queryBuilder.appendWhere(ColoursTable.COLUMN_ID + "=");
                 queryBuilder.appendWhereEscapeString(uri.getLastPathSegment());
                 break;
             case COLOUR_NAME:
-                queryBuilder.appendWhere(ColoursTable.COLUMN_NAME+" LIKE ");
-                queryBuilder.appendWhereEscapeString("%"+uri.getLastPathSegment()+"%");
+                queryBuilder.appendWhere(ColoursTable.COLUMN_NAME + " LIKE ");
+                queryBuilder.appendWhereEscapeString("%" + uri.getLastPathSegment() + "%");
                 break;
             case COLOUR_PARAMS:
-                String sLowerHue =                        uri.getQueryParameter("lower_hue");
-                String sUpperHue =                        uri.getQueryParameter("upper_hue");
-                String sLowerSaturation =                 uri.getQueryParameter("lower_saturation");
-                String sUpperSaturation =                 uri.getQueryParameter("upper_saturation");
-                String sLowerValue =                      uri.getQueryParameter("lower_value");
-                String sUpperValue =                      uri.getQueryParameter("upper_value");
-                boolean strictInequalityLowerHue =        (sLowerHue==null)?false:uri.getBooleanQueryParameter("lower_hue_strict", false);
-                boolean strictInequalityUpperHue =        (sUpperHue==null)?false:uri.getBooleanQueryParameter("upper_hue_strict", false);
-                boolean strictInequalityLowerSaturation = (sLowerSaturation==null)?false:uri.getBooleanQueryParameter("lower_saturation_strict", false);
-                boolean strictInequalityUpperSaturation = (sUpperSaturation==null)?false:uri.getBooleanQueryParameter("upper_saturation_strict", false);
-                boolean strictInequalityLowerValue =      (sLowerValue==null)?false:uri.getBooleanQueryParameter("lower_value_strict", false);
-                boolean strictInequalityUpperValue =      (sUpperValue==null)?false:uri.getBooleanQueryParameter("upper_value_strict", false);
-                float lowerHue =                          (sLowerHue==null)?0.0f:Float.valueOf(sLowerHue);
-                float upperHue =                          (sUpperHue==null)?360.0f:Float.valueOf(sUpperHue);
-                float lowerSaturation =                   (sLowerSaturation==null)?0.0f:Float.valueOf(sLowerSaturation);
-                float upperSaturation =                   (sUpperSaturation==null)?1.0f:Float.valueOf(sUpperSaturation);
-                float lowerValue =                        (sLowerValue==null)?0.0f:Float.valueOf(sLowerValue);
-                float upperValue =                        (sUpperValue==null)?1.0f:Float.valueOf(sUpperValue);
-                queryBuilder.appendWhere(ColoursTable.COLUMN_HUE + (strictInequalityLowerHue?">":">=") + lowerHue);
-                queryBuilder.appendWhere(ColoursTable.COLUMN_HUE + (strictInequalityUpperHue?"<":"<=") + upperHue);
-                queryBuilder.appendWhere(ColoursTable.COLUMN_SATURATION + (strictInequalityLowerSaturation?">":">=") + lowerSaturation);
-                queryBuilder.appendWhere(ColoursTable.COLUMN_SATURATION + (strictInequalityUpperSaturation?"<":"<=") + upperSaturation);
-                queryBuilder.appendWhere(ColoursTable.COLUMN_VALUE + (strictInequalityLowerValue?">":">=") + lowerValue);
-                queryBuilder.appendWhere(ColoursTable.COLUMN_VALUE + (strictInequalityUpperValue?"<":"<=") + upperValue);
+                String sLowerHue = uri.getQueryParameter("lower_hue");
+                String sUpperHue = uri.getQueryParameter("upper_hue");
+                String sLowerSaturation = uri.getQueryParameter("lower_saturation");
+                String sUpperSaturation = uri.getQueryParameter("upper_saturation");
+                String sLowerValue = uri.getQueryParameter("lower_value");
+                String sUpperValue = uri.getQueryParameter("upper_value");
+                boolean strictInequalityLowerHue = (sLowerHue != null) && uri.getBooleanQueryParameter("lower_hue_strict", false);
+                boolean strictInequalityUpperHue = (sUpperHue != null) && uri.getBooleanQueryParameter("upper_hue_strict", false);
+                boolean strictInequalityLowerSaturation = (sLowerSaturation != null) && uri.getBooleanQueryParameter("lower_saturation_strict", false);
+                boolean strictInequalityUpperSaturation = (sUpperSaturation != null) && uri.getBooleanQueryParameter("upper_saturation_strict", false);
+                boolean strictInequalityLowerValue = (sLowerValue != null) && uri.getBooleanQueryParameter("lower_value_strict", false);
+                boolean strictInequalityUpperValue = (sUpperValue != null) && uri.getBooleanQueryParameter("upper_value_strict", false);
+                float lowerHue = (((sLowerHue == null) ? 0.0f : Float.valueOf(sLowerHue)) + 360.0f) % 360.0f;
+                float upperHue = (((sUpperHue == null) ? 360.0f : Float.valueOf(sUpperHue)) + 360.0f) % 360.0f;
+                float lowerSaturation = (sLowerSaturation == null) ? 0.0f : Float.valueOf(sLowerSaturation);
+                float upperSaturation = (sUpperSaturation == null) ? 1.0f : Float.valueOf(sUpperSaturation);
+                float lowerValue = (sLowerValue == null) ? 0.0f : Float.valueOf(sLowerValue);
+                float upperValue = (sUpperValue == null) ? 1.0f : Float.valueOf(sUpperValue);
+                queryBuilder.appendWhere("(");
+                queryBuilder.appendWhere(ColoursTable.COLUMN_HUE + (strictInequalityLowerHue ? ">" : ">=") + lowerHue);
+                queryBuilder.appendWhere(lowerHue > upperHue ? " OR " : " AND ");
+                queryBuilder.appendWhere(ColoursTable.COLUMN_HUE + (strictInequalityUpperHue ? "<" : "<=") + upperHue);
+                queryBuilder.appendWhere(") AND (");
+                queryBuilder.appendWhere(ColoursTable.COLUMN_SATURATION + (strictInequalityLowerSaturation ? ">" : ">=") + lowerSaturation);
+                queryBuilder.appendWhere(lowerSaturation > upperSaturation ? " OR " : " AND ");
+                queryBuilder.appendWhere(ColoursTable.COLUMN_SATURATION + (strictInequalityUpperSaturation ? "<" : "<=") + upperSaturation);
+                queryBuilder.appendWhere(") AND (");
+                queryBuilder.appendWhere(ColoursTable.COLUMN_VALUE + (strictInequalityLowerValue ? ">" : ">=") + lowerValue);
+                queryBuilder.appendWhere(lowerValue > upperValue ? " OR " : " AND ");
+                queryBuilder.appendWhere(ColoursTable.COLUMN_VALUE + (strictInequalityUpperValue ? "<" : "<=") + upperValue);
+                queryBuilder.appendWhere(")");
                 break;
             default:
                 throw new IllegalArgumentException("Unknown URI " + uri);
