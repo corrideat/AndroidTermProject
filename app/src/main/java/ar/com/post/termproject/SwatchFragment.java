@@ -19,11 +19,12 @@ import ar.com.post.termproject.db.ColourContentProvider;
  * create an instance of this fragment.
  */
 public class SwatchFragment extends Fragment {
+    private static final String COLOUR_SWATCHES_FRAGMENT_TAG = "swatch_settings";
     private static final String ARG_HUE_START = "hueStart";
     private static final String ARG_HUE_END = "hueEnd";
-    private static final String ARG_STEPS = "steps";
     private static final String ARG_SATURATION = "saturation";
     private static final String ARG_VARY = "vary";
+    private static final String ARG_CLOCKWISE = "clockwise";
 
     private float mHueStart;
     private float mHueEnd;
@@ -31,6 +32,7 @@ public class SwatchFragment extends Fragment {
     private int mSteps;
     private GradientAdapter.Vary mVary;
     private Fragment mSubFragment;
+    private boolean mClockwise;
 
     public SwatchFragment() {
         // Required empty public constructor
@@ -40,21 +42,21 @@ public class SwatchFragment extends Fragment {
      * Use this factory method to create a new instance of
      * this fragment using the provided parameters.
      *
-     * @param steps      Number of swatches
      * @param hueStart   Start Hue.
      * @param hueEnd     End Hue.
      * @param saturation Saturation level
      * @param vary       The parameter to be varied
+     * @param clockwise  Clockwise Hue Display
      * @return A new instance of fragment SaturationFragment.
      */
-    public static SwatchFragment newInstance(int steps, float hueStart, float hueEnd, float saturation, GradientAdapter.Vary vary) {
+    public static SwatchFragment newInstance(float hueStart, float hueEnd, float saturation, GradientAdapter.Vary vary, boolean clockwise) {
         SwatchFragment fragment = new SwatchFragment();
         Bundle arguments = new Bundle();
-        arguments.putInt(ARG_STEPS, steps);
         arguments.putFloat(ARG_HUE_START, hueStart);
         arguments.putFloat(ARG_HUE_END, hueEnd);
         arguments.putFloat(ARG_SATURATION, saturation);
         arguments.putSerializable(ARG_VARY, vary);
+        arguments.putBoolean(ARG_CLOCKWISE, clockwise);
         fragment.setArguments(arguments);
         return fragment;
     }
@@ -64,11 +66,11 @@ public class SwatchFragment extends Fragment {
         super.onCreate(savedInstanceState);
         Bundle arguments = getArguments();
         if (arguments != null) {
-            mSteps = arguments.getInt(ARG_STEPS);
             mHueStart = arguments.getFloat(ARG_HUE_START);
             mHueEnd = arguments.getFloat(ARG_HUE_END);
             mSaturation = arguments.getFloat(ARG_SATURATION);
             mVary = (GradientAdapter.Vary) arguments.getSerializable(ARG_VARY);
+            mClockwise = arguments.getBoolean(ARG_CLOCKWISE, false);
         }
         //setRetainInstance(true);
     }
@@ -78,13 +80,15 @@ public class SwatchFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_swatch, container, false);
         final ListView listView = (ListView) view.findViewById(R.id.listView);
-        listView.setAdapter(GradientAdapter.newInstance(getActivity().getApplicationContext(), mSteps, mVary, mHueStart, mHueEnd, mSaturation));
+        view.findViewById(R.id.configure_colour_swatches).setTag(this);
+        mSteps = ((SwatchActivity) getActivity()).getNumberOfSwatches(mVary);
+        listView.setAdapter(GradientAdapter.newInstance(getActivity().getApplicationContext(), mSteps, mVary, mHueStart, mHueEnd, mSaturation, mClockwise));
         if (mVary == GradientAdapter.Vary.HUE) {
             listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                     GradientAdapter adapter = (GradientAdapter) parent.getAdapter();
-                    mSubFragment = SwatchFragment.newInstance(mSteps, adapter.getHueStart(position), adapter.getHueEnd(position), 1.0f, GradientAdapter.Vary.SATURATION);
+                    mSubFragment = SwatchFragment.newInstance(adapter.getHueStart(position), adapter.getHueEnd(position), 1.0f, GradientAdapter.Vary.SATURATION, adapter.getClockwise(position));
                     getActivity().getSupportFragmentManager().beginTransaction()
                             .add(R.id.fragment_container, mSubFragment)
                             .addToBackStack("back")
@@ -97,7 +101,7 @@ public class SwatchFragment extends Fragment {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                     GradientAdapter adapter = (GradientAdapter) parent.getAdapter();
-                    mSubFragment = SwatchFragment.newInstance(mSteps, mHueStart, mHueEnd, adapter.getSaturation(position), GradientAdapter.Vary.VALUE);
+                    mSubFragment = SwatchFragment.newInstance(mHueStart, mHueEnd, adapter.getSaturation(position), GradientAdapter.Vary.VALUE, adapter.getClockwise(position));
                     getActivity().getSupportFragmentManager().beginTransaction()
                             .add(R.id.fragment_container, mSubFragment)
                             .addToBackStack("back")
@@ -132,5 +136,23 @@ public class SwatchFragment extends Fragment {
         }
 
         return view;
+    }
+
+    public void configureColourSwatches() {
+        ColourSwatchesSVFragment fragment = mVary != GradientAdapter.Vary.HUE ? new ColourSwatchesSVFragment() : new ColourSwatchesHFragment();
+        Bundle arguments = new Bundle();
+        arguments.putSerializable(ColourSwatchesSVFragment.ARG_VARY, mVary);
+        fragment.setArguments(arguments);
+        fragment.show(getActivity().getSupportFragmentManager(), COLOUR_SWATCHES_FRAGMENT_TAG);
+    }
+
+    interface SwatchActivity {
+        public int getNumberOfSwatches(GradientAdapter.Vary vary);
+
+        public void setNumberOfSwatches(GradientAdapter.Vary vary, int numberOfSwatches);
+
+        public int getMaxNumberOfSwatches(GradientAdapter.Vary vary);
+
+        public int getMinNumberOfSwatches(GradientAdapter.Vary vary);
     }
 }

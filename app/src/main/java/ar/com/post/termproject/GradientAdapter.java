@@ -16,23 +16,23 @@ public class GradientAdapter extends ArrayAdapter<Gradient> {
         mGradients = gradients;
     }
 
-    public static GradientAdapter newInstance(Context context, int steps, Vary vary, float hue_start, float hue_end, float saturation) {
+    public static GradientAdapter newInstance(Context context, int steps, Vary vary, float hue_start, float hue_end, float saturation, boolean clockwise) {
         Gradient[] gradients = new Gradient[steps];
         if (vary == Vary.HUE) {
-            float step_size = ((hue_start - hue_end) / steps);
+            float step_size = steps == 1 ? 359.9999f : ((hue_start - hue_end) / steps);
             for (int i = 0; i < steps; i++) {
-                gradients[i] = new Gradient(hue_start - i * step_size, hue_start - (i + 1) * step_size, 1.0f, 1.0f);
+                gradients[i] = new Gradient(hue_start - i * step_size, hue_start - (i + 1) * step_size, 1.0f, 1.0f, clockwise);
             }
         } else if (vary == Vary.SATURATION) {
             float step_size = (1.0f / steps);
             for (int i = 0; i < steps; i++) {
-                gradients[i] = new Gradient(hue_start, hue_end, 1.0f - i * step_size, 1.0f);
+                gradients[i] = new Gradient(hue_start, hue_end, 1.0f - i * step_size, 1.0f, clockwise);
             }
 
         } else if (vary == Vary.VALUE) {
             float step_size = (1.0f / steps);
             for (int i = 0; i < steps; i++) {
-                gradients[i] = new Gradient(hue_start, hue_end, saturation, 1.0f - i * step_size);
+                gradients[i] = new Gradient(hue_start, hue_end, saturation, 1.0f - i * step_size, clockwise);
             }
         }
         return new GradientAdapter(context, gradients);
@@ -54,28 +54,34 @@ public class GradientAdapter extends ArrayAdapter<Gradient> {
         return mGradients[position].mValue;
     }
 
+    public boolean getClockwise(int position) {
+        return mGradients[position].mClockwise;
+    }
+
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         if (convertView == null) {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.item_gradient, parent, false);
         }
 
-        float[][] hsv = {
-                {
-                        mGradients[position].mHueStart,   // float: [0.0f, 360.0f]
-                        mGradients[position].mSaturation, // float: [0.0f, 1.0f]
-                        mGradients[position].mValue,      // float: [0.0f, 1.0f]
-                },
-                {
-                        mGradients[position].mHueEnd,     // float: [0.0f, 360.0f]
-                        mGradients[position].mSaturation, // float: [0.0f, 1.0f]
-                        mGradients[position].mValue,      // float: [0.0f, 1.0f]
-                }
-        };
+        float gradientDelta = mGradients[position].mHueEnd - mGradients[position].mHueStart;
+        if (gradientDelta < 0.0f) {
+            gradientDelta += 360.0f;
+        }
+        float stepSize;
+        int samples = Math.max((int) Math.floor(gradientDelta / Math.PI), 5);
+        int[] colours = new int[samples];
+        stepSize = gradientDelta / (samples - 1);
 
-        int[] colours = {Color.HSVToColor(hsv[0]), Color.HSVToColor(hsv[1])};
+        for (int i = 0; i < samples; i++) {
+            colours[i] = Color.HSVToColor(new float[]{
+                    mGradients[position].mHueStart + i * stepSize,
+                    mGradients[position].mSaturation,
+                    mGradients[position].mValue
+            });
+        }
 
-        GradientDrawable drawable = new GradientDrawable(GradientDrawable.Orientation.LEFT_RIGHT, colours);
+        GradientDrawable drawable = new GradientDrawable(mGradients[position].mClockwise ? GradientDrawable.Orientation.RIGHT_LEFT : GradientDrawable.Orientation.LEFT_RIGHT, colours);
 
         convertView.setBackground(drawable);
         return convertView;

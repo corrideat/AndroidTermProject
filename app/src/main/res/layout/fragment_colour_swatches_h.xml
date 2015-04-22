@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ar.com.post.termproject.SortingOrderFragment">
+
+
+    <TextView
+        android:id="@+id/number_of_swatches_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/number_of_swatches" />
+
+    <SeekBar
+        android:id="@+id/configure_colour_swatches_seek_bar"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/number_of_swatches_text"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:max="35" />
+
+    <TextView
+        android:id="@+id/central_hue_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/configure_colour_swatches_seek_bar"
+        android:layout_centerHorizontal="true"
+        android:text="@string/central_hue" />
+
+    <SeekBar
+        android:id="@+id/configure_central_hue_seek_bar"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/central_hue_text"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:max="359" />
+
+    <FrameLayout
+        android:id="@+id/colour_preview"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_below="@+id/configure_central_hue_seek_bar"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center" />
+
+</RelativeLayout>

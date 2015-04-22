@@ -15,6 +15,7 @@
     <string name="value_range" formatted="false">V: %.2f-%.2f</string>
     <string name="separator">, </string>
     <string name="configure_sorting_order">Configure sorting order</string>
+    <string name="configure_colour_swatches">Configure colour swatches</string>
     <string name="sort_hsv">Hue, Saturation, Value</string>
     <string name="sort_hvs">Hue, Value, Saturation</string>
     <string name="sort_shv">Saturation, Hue, Value</string>
@@ -23,5 +24,7 @@
     <string name="sort_vsh">Value, Saturation, Hue</string>
     <string name="save">Save</string>
     <string name="cancel">Cancel</string>
+    <string name="number_of_swatches">Number of Swatches:</string>
+    <string name="central_hue">Central Hue:</string>
 
 </resources>

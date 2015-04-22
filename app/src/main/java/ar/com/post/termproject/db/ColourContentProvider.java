@@ -86,12 +86,18 @@ public class ColourContentProvider extends ContentProvider {
                 boolean strictInequalityUpperSaturation = (sUpperSaturation != null) && uri.getBooleanQueryParameter("upper_saturation_strict", false);
                 boolean strictInequalityLowerValue = (sLowerValue != null) && uri.getBooleanQueryParameter("lower_value_strict", false);
                 boolean strictInequalityUpperValue = (sUpperValue != null) && uri.getBooleanQueryParameter("upper_value_strict", false);
-                float lowerHue = (((sLowerHue == null) ? 0.0f : Float.valueOf(sLowerHue)) + 360.0f) % 360.0f;
-                float upperHue = (((sUpperHue == null) ? 360.0f : Float.valueOf(sUpperHue)) + 360.0f) % 360.0f;
+                float lowerHue = ((sLowerHue == null) ? 0.0f : Float.valueOf(sLowerHue)) % 360.0f;
+                float upperHue = ((sUpperHue == null) ? 360.0f : Float.valueOf(sUpperHue)) % 360.0f;
                 float lowerSaturation = (sLowerSaturation == null) ? 0.0f : Float.valueOf(sLowerSaturation);
                 float upperSaturation = (sUpperSaturation == null) ? 1.0f : Float.valueOf(sUpperSaturation);
                 float lowerValue = (sLowerValue == null) ? 0.0f : Float.valueOf(sLowerValue);
                 float upperValue = (sUpperValue == null) ? 1.0f : Float.valueOf(sUpperValue);
+                if (lowerHue < 0.0f) {
+                    lowerHue += 360.0f;
+                }
+                if (upperHue < 0.0f) {
+                    upperHue += 360.0f;
+                }
                 queryBuilder.appendWhere("(");
                 queryBuilder.appendWhere(ColoursTable.COLUMN_HUE + (strictInequalityLowerHue ? ">" : ">=") + lowerHue);
                 queryBuilder.appendWhere(lowerHue > upperHue ? " OR " : " AND ");
