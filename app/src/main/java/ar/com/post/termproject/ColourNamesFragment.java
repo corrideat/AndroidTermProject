@@ -111,7 +111,6 @@ public class ColourNamesFragment extends Fragment implements LoaderManager.Loade
     }
 
     public void restart() {
-        System.out.println("Restarting loader");
         getLoaderManager().restartLoader(0, null, this);
     }
 

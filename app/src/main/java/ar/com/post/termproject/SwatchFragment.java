@@ -33,6 +33,7 @@ public class SwatchFragment extends Fragment {
     private GradientAdapter.Vary mVary;
     private Fragment mSubFragment;
     private boolean mClockwise;
+    private GradientAdapter mAdapter;
 
     public SwatchFragment() {
         // Required empty public constructor
@@ -82,7 +83,8 @@ public class SwatchFragment extends Fragment {
         final ListView listView = (ListView) view.findViewById(R.id.listView);
         view.findViewById(R.id.configure_colour_swatches).setTag(this);
         mSteps = ((SwatchActivity) getActivity()).getNumberOfSwatches(mVary);
-        listView.setAdapter(GradientAdapter.newInstance(getActivity().getApplicationContext(), mSteps, mVary, mHueStart, mHueEnd, mSaturation, mClockwise));
+        mAdapter = GradientAdapter.newInstance(getActivity().getApplicationContext(), mSteps, mVary, mHueStart, mHueEnd, mSaturation, mClockwise);
+        listView.setAdapter(mAdapter);
         if (mVary == GradientAdapter.Vary.HUE) {
             listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
@@ -143,8 +145,28 @@ public class SwatchFragment extends Fragment {
         Bundle arguments = new Bundle();
         arguments.putSerializable(ColourSwatchesSVFragment.ARG_VARY, mVary);
         fragment.setArguments(arguments);
+        fragment.setFragment(this);
         fragment.show(getActivity().getSupportFragmentManager(), COLOUR_SWATCHES_FRAGMENT_TAG);
     }
+
+    public void resetStep(int numberOfSwatches) {
+        SwatchActivity activity = (SwatchActivity) getActivity();
+        activity.setNumberOfSwatches(mVary, numberOfSwatches);
+        int steps = activity.getNumberOfSwatches(mVary);
+        mSteps = steps;
+        mAdapter.reset(steps, mVary, mHueStart, mHueEnd, mSaturation, mClockwise);
+    }
+
+    public void resetStep(int numberOfSwatches, float centralHue) {
+        if (mVary != GradientAdapter.Vary.HUE) {
+            throw new UnsupportedOperationException();
+        }
+        SwatchActivity activity = (SwatchActivity) getActivity();
+        activity.setCentralHue(centralHue);
+        mHueStart = activity.getCentralHue();
+        resetStep(numberOfSwatches);
+    }
+
 
     interface SwatchActivity {
         public int getNumberOfSwatches(GradientAdapter.Vary vary);
@@ -154,5 +176,9 @@ public class SwatchFragment extends Fragment {
         public int getMaxNumberOfSwatches(GradientAdapter.Vary vary);
 
         public int getMinNumberOfSwatches(GradientAdapter.Vary vary);
+
+        public float getCentralHue();
+
+        public void setCentralHue(float centralHue);
     }
 }

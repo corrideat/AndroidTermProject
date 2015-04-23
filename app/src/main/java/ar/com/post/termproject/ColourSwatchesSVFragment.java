@@ -18,7 +18,9 @@ import android.widget.SeekBar;
  */
 public class ColourSwatchesSVFragment extends DialogFragment {
     public static final String ARG_VARY = "vary";
+
     GradientAdapter.Vary mVary;
+    SwatchFragment mFragment;
 
     public ColourSwatchesSVFragment() {
     }
@@ -27,6 +29,10 @@ public class ColourSwatchesSVFragment extends DialogFragment {
     public void onCreate(Bundle savedInstanceState) {
         mVary = (GradientAdapter.Vary) getArguments().getSerializable(ARG_VARY);
         super.onCreate(savedInstanceState);
+    }
+
+    public void setFragment(SwatchFragment fragment) {
+        mFragment = fragment;
     }
 
     @NonNull
@@ -50,7 +56,7 @@ public class ColourSwatchesSVFragment extends DialogFragment {
                     @Override
                     public void onClick(DialogInterface dialog, int id) {
                         int numberOfSwatches = seekBar.getProgress() + min;
-                        activity.setNumberOfSwatches(mVary, numberOfSwatches);
+                        mFragment.resetStep(numberOfSwatches);
                     }
                 })
                 .setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
@@ -59,7 +65,7 @@ public class ColourSwatchesSVFragment extends DialogFragment {
                     }
                 });
         seekBar.setProgress(
-                ((SwatchFragment.SwatchActivity) getActivity()).getNumberOfSwatches(mVary)
+                activity.getNumberOfSwatches(mVary) - min
         );
         return builder.create();
     }

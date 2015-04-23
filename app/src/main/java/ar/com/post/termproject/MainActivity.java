@@ -20,8 +20,7 @@ public class MainActivity extends FragmentActivity implements ColourNamesFragmen
     final static public int MIN_SWATCHES_H = 1;
     final static public int MAX_SWATCHES_H = 36;
     final private int DEFAULT_SWATCHES = 12;
-    final private float HUE_START = -15.0f;
-    final private float HUE_END = 345.0f;
+    final private float DEFAULT_HUE_CENTRE = 0.0f;
     final private String MAIN_FRAGMENT_TAG = "hue";
     final private String SORTING_ORDER_FRAGMENT_TAG = "sorting_order";
     final private String PREFERENCE_KEY = "preferences";
@@ -29,8 +28,10 @@ public class MainActivity extends FragmentActivity implements ColourNamesFragmen
     final private String PREFERENCE_KEY_SWATCHES_HUE = "number_swatches_h";
     final private String PREFERENCE_KEY_SWATCHES_SATURATION = "number_swatches_s";
     final private String PREFERENCE_KEY_SWATCHES_VALUE = "number_swatches_v";
+    final private String PREFERENCE_KEY_CENTRAL_HUE = "central_hue";
     private SortingOrder mSortingOrder;
     private ColourNamesFragment mColourNamesFragment;
+    private float mFirstCentralHue;
     private int mNumberOfSwatchesHue;
     private int mNumberOfSwatchesSaturation;
     private int mNumberOfSwatchesValue;
@@ -45,12 +46,13 @@ public class MainActivity extends FragmentActivity implements ColourNamesFragmen
         mNumberOfSwatchesHue = preferences.getInt(PREFERENCE_KEY_SWATCHES_HUE, DEFAULT_SWATCHES);
         mNumberOfSwatchesSaturation = preferences.getInt(PREFERENCE_KEY_SWATCHES_SATURATION, DEFAULT_SWATCHES);
         mNumberOfSwatchesValue = preferences.getInt(PREFERENCE_KEY_SWATCHES_VALUE, DEFAULT_SWATCHES);
+        mFirstCentralHue = preferences.getFloat(PREFERENCE_KEY_CENTRAL_HUE, DEFAULT_HUE_CENTRE);
         mSortingOrder = SortingOrder.findById(sortingOrderKey);
 
         FragmentManager fragmentManager = getSupportFragmentManager();
         Fragment fragment = fragmentManager.findFragmentByTag(MAIN_FRAGMENT_TAG);
         if (fragment == null) {
-            fragment = SwatchFragment.newInstance(HUE_START, HUE_END, 1.0f, GradientAdapter.Vary.HUE, false);
+            fragment = SwatchFragment.newInstance(mFirstCentralHue, Float.NaN, 1.0f, GradientAdapter.Vary.HUE, false);
             getSupportFragmentManager().beginTransaction()
                     .add(R.id.fragment_container, fragment, MAIN_FRAGMENT_TAG).commit();
         }
@@ -93,6 +95,7 @@ public class MainActivity extends FragmentActivity implements ColourNamesFragmen
                 .putInt(PREFERENCE_KEY_SWATCHES_HUE, mNumberOfSwatchesHue)
                 .putInt(PREFERENCE_KEY_SWATCHES_SATURATION, mNumberOfSwatchesSaturation)
                 .putInt(PREFERENCE_KEY_SWATCHES_VALUE, mNumberOfSwatchesValue)
+                .putFloat(PREFERENCE_KEY_CENTRAL_HUE, mFirstCentralHue)
                 .apply();
     }
 
@@ -170,5 +173,16 @@ public class MainActivity extends FragmentActivity implements ColourNamesFragmen
             return MIN_SWATCHES_H;
         }
         return MIN_SWATCHES;
+    }
+
+    @Override
+    public float getCentralHue() {
+        return mFirstCentralHue;
+    }
+
+    @Override
+    public void setCentralHue(float centralHue) {
+        mFirstCentralHue = centralHue % 360.0f;
+        System.out.println("centralHue:" + centralHue + " -==> " + mFirstCentralHue);
     }
 }

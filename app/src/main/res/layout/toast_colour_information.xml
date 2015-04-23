@@ -1,4 +1,4 @@
-<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/toast_colour_information"
     android:layout_width="match_parent"
@@ -10,16 +10,12 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:rowCount="3"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/colour_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_column="0"
-        android:layout_columnSpan="2"
-        android:layout_row="0"
         android:gravity="fill_horizontal"
         android:text="@string/DYNAMIC"
         android:textColor="#ffffffff"
@@ -29,41 +25,40 @@
         android:id="@+id/colour_preview"
         android:layout_width="fill_parent"
         android:layout_height="40dp"
-        android:layout_column="0"
-        android:layout_columnSpan="2"
-        android:layout_gravity="start|center_vertical"
+        android:layout_below="@+id/colour_name"
+        android:layout_centerHorizontal="true"
         android:layout_margin="0dp"
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="0dp"
         android:layout_marginRight="0dp"
         android:layout_marginTop="10dp"
-        android:layout_row="1"
         android:background="#ffffffff"
         android:padding="0sp"
         android:paddingLeft="0sp"
         android:paddingRight="0sp" />
 
     <TextView
+        android:id="@+id/hsv_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_column="0"
-        android:layout_gravity="start|top"
-        android:layout_row="2"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/colour_preview"
         android:text="@string/hsv"
         android:textColor="#ffffffff" />
 
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_column="1"
+        android:layout_below="@+id/colour_preview"
         android:layout_gravity="fill_horizontal|top"
-        android:layout_row="2"
+        android:layout_toEndOf="@+id/hsv_text"
+        android:layout_toRightOf="@+id/hsv_text"
         android:paddingBottom="0dp"
         android:paddingLeft="0dp"
         android:paddingRight="0dp"
         android:paddingTop="0dp">
 
-        <TextView
+    <TextView
             android:id="@+id/colour_hue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -117,4 +112,4 @@
             android:textColor="#ffffffff" />
     </RelativeLayout>
 
-</GridLayout>
+</RelativeLayout>

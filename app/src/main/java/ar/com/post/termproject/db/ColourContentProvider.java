@@ -80,6 +80,7 @@ public class ColourContentProvider extends ContentProvider {
                 String sUpperSaturation = uri.getQueryParameter("upper_saturation");
                 String sLowerValue = uri.getQueryParameter("lower_value");
                 String sUpperValue = uri.getQueryParameter("upper_value");
+                boolean wideRangeHue = (sLowerHue != null && sUpperHue != null) && uri.getBooleanQueryParameter("wide_range_hue", true);
                 boolean strictInequalityLowerHue = (sLowerHue != null) && uri.getBooleanQueryParameter("lower_hue_strict", false);
                 boolean strictInequalityUpperHue = (sUpperHue != null) && uri.getBooleanQueryParameter("upper_hue_strict", false);
                 boolean strictInequalityLowerSaturation = (sLowerSaturation != null) && uri.getBooleanQueryParameter("lower_saturation_strict", false);
@@ -99,10 +100,12 @@ public class ColourContentProvider extends ContentProvider {
                     upperHue += 360.0f;
                 }
                 queryBuilder.appendWhere("(");
-                queryBuilder.appendWhere(ColoursTable.COLUMN_HUE + (strictInequalityLowerHue ? ">" : ">=") + lowerHue);
-                queryBuilder.appendWhere(lowerHue > upperHue ? " OR " : " AND ");
-                queryBuilder.appendWhere(ColoursTable.COLUMN_HUE + (strictInequalityUpperHue ? "<" : "<=") + upperHue);
-                queryBuilder.appendWhere(") AND (");
+                if (Math.abs(upperHue - lowerHue) > 0.01 || !wideRangeHue) {
+                    queryBuilder.appendWhere(ColoursTable.COLUMN_HUE + (strictInequalityLowerHue ? ">" : ">=") + lowerHue);
+                    queryBuilder.appendWhere(lowerHue > upperHue ? " OR " : " AND ");
+                    queryBuilder.appendWhere(ColoursTable.COLUMN_HUE + (strictInequalityUpperHue ? "<" : "<=") + upperHue);
+                    queryBuilder.appendWhere(") AND (");
+                }
                 queryBuilder.appendWhere(ColoursTable.COLUMN_SATURATION + (strictInequalityLowerSaturation ? ">" : ">=") + lowerSaturation);
                 queryBuilder.appendWhere(lowerSaturation > upperSaturation ? " OR " : " AND ");
                 queryBuilder.appendWhere(ColoursTable.COLUMN_SATURATION + (strictInequalityUpperSaturation ? "<" : "<=") + upperSaturation);
