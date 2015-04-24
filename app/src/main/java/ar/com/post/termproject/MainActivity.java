@@ -1,188 +1,84 @@
 package ar.com.post.termproject;
 
-import android.content.SharedPreferences;
-import android.graphics.Color;
+import android.app.Activity;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentManager;
-import android.view.Gravity;
-import android.view.LayoutInflater;
+import android.provider.MediaStore;
 import android.view.View;
-import android.widget.TextView;
 import android.widget.Toast;
 
 
-public class MainActivity extends FragmentActivity implements ColourNamesFragment.ColourInformationActivity, SortingOrder.SortingOrderActivity, SwatchFragment.SwatchActivity {
-
-    final static public int MIN_SWATCHES = 1;
-    final static public int MAX_SWATCHES = 256;
-    final static public int MIN_SWATCHES_H = 1;
-    final static public int MAX_SWATCHES_H = 36;
-    final private int DEFAULT_SWATCHES = 12;
-    final private float DEFAULT_HUE_CENTRE = 0.0f;
-    final private String MAIN_FRAGMENT_TAG = "hue";
-    final private String SORTING_ORDER_FRAGMENT_TAG = "sorting_order";
-    final private String PREFERENCE_KEY = "preferences";
-    final private String PREFERENCE_KEY_SORTING_ORDER = "sorting_order";
-    final private String PREFERENCE_KEY_SWATCHES_HUE = "number_swatches_h";
-    final private String PREFERENCE_KEY_SWATCHES_SATURATION = "number_swatches_s";
-    final private String PREFERENCE_KEY_SWATCHES_VALUE = "number_swatches_v";
-    final private String PREFERENCE_KEY_CENTRAL_HUE = "central_hue";
-    private SortingOrder mSortingOrder;
-    private ColourNamesFragment mColourNamesFragment;
-    private float mFirstCentralHue;
-    private int mNumberOfSwatchesHue;
-    private int mNumberOfSwatchesSaturation;
-    private int mNumberOfSwatchesValue;
+public class MainActivity extends Activity {
+    private static final int CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE = 100;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        SharedPreferences preferences = getSharedPreferences(PREFERENCE_KEY, MODE_PRIVATE);
-        int sortingOrderKey = preferences.getInt(PREFERENCE_KEY_SORTING_ORDER, 1);
-        mNumberOfSwatchesHue = preferences.getInt(PREFERENCE_KEY_SWATCHES_HUE, DEFAULT_SWATCHES);
-        mNumberOfSwatchesSaturation = preferences.getInt(PREFERENCE_KEY_SWATCHES_SATURATION, DEFAULT_SWATCHES);
-        mNumberOfSwatchesValue = preferences.getInt(PREFERENCE_KEY_SWATCHES_VALUE, DEFAULT_SWATCHES);
-        mFirstCentralHue = preferences.getFloat(PREFERENCE_KEY_CENTRAL_HUE, DEFAULT_HUE_CENTRE);
-        mSortingOrder = SortingOrder.findById(sortingOrderKey);
-
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        Fragment fragment = fragmentManager.findFragmentByTag(MAIN_FRAGMENT_TAG);
-        if (fragment == null) {
-            fragment = SwatchFragment.newInstance(mFirstCentralHue, Float.NaN, 1.0f, GradientAdapter.Vary.HUE, false);
-            getSupportFragmentManager().beginTransaction()
-                    .add(R.id.fragment_container, fragment, MAIN_FRAGMENT_TAG).commit();
+        if (checkCameraHardware() == null) {
+            launchColourExplorer();
+            finish();
         }
     }
 
     @Override
-    public void showColourInformationToast(final ColourName colourName) {
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                LayoutInflater layoutInflater = getLayoutInflater();
-                View layout = layoutInflater.inflate(R.layout.toast_colour_information, null);
-                int colour = Color.HSVToColor(new float[]{colourName.mHue, colourName.mSaturation, colourName.mValue});
-                ((TextView) layout.findViewById(R.id.colour_name)).setText(colourName.mName);
-                ((TextView) layout.findViewById(R.id.colour_hue)).setText(String.format("%.2f", colourName.mHue));
-                ((TextView) layout.findViewById(R.id.colour_saturation)).setText(String.format("%.2f", colourName.mSaturation));
-                ((TextView) layout.findViewById(R.id.colour_value)).setText(String.format("%.2f", colourName.mValue));
-                layout.findViewById(R.id.colour_preview).setBackgroundColor(colour);
-
-                Toast toast = new Toast(getApplicationContext());
-                toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
-                toast.setDuration(Toast.LENGTH_LONG);
-                toast.setView(layout);
-                toast.show();
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (requestCode == CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE) {
+            if (resultCode == RESULT_OK) {
+                Intent intent = new Intent(this, ColourFinderActivity.class);
+                intent.putExtra("data", (Bitmap) data.getExtras().get("data"));
+                startActivity(intent);
+            } else if (resultCode == RESULT_CANCELED) {
+                // User cancelled the image capture
+                Toast.makeText(this, getString(R.string.shot_cancelled), Toast.LENGTH_SHORT).show();
+            } else {
+                // Image capture failed, advise user
+                Toast.makeText(this, getString(R.string.shot_error), Toast.LENGTH_SHORT).show();
             }
-        });
-    }
-
-    @Override
-    public void registerColourInformationInstance(ColourNamesFragment fragment) {
-        mColourNamesFragment = fragment;
-    }
-
-    @Override
-    public void onPause() {
-        super.onPause();
-        SharedPreferences preferences = getSharedPreferences(PREFERENCE_KEY, MODE_PRIVATE);
-        preferences.edit()
-                .putInt(PREFERENCE_KEY_SORTING_ORDER, mSortingOrder.mId)
-                .putInt(PREFERENCE_KEY_SWATCHES_HUE, mNumberOfSwatchesHue)
-                .putInt(PREFERENCE_KEY_SWATCHES_SATURATION, mNumberOfSwatchesSaturation)
-                .putInt(PREFERENCE_KEY_SWATCHES_VALUE, mNumberOfSwatchesValue)
-                .putFloat(PREFERENCE_KEY_CENTRAL_HUE, mFirstCentralHue)
-                .apply();
-    }
-
-    @Override
-    public SortingOrder getSortingOrder() {
-        return mSortingOrder;
-    }
-
-    @Override
-    public void setSortingOrder(SortingOrder sortingOrder) {
-        if (sortingOrder != null) {
-            mSortingOrder = sortingOrder;
-        }
-        if (mColourNamesFragment != null) {
-            mColourNamesFragment.restart();
         }
     }
 
-    public void onClickButtonSaveSortingOrder(View view) {
-        SortingOrderFragment fragment = new SortingOrderFragment();
-        fragment.show(getSupportFragmentManager(), SORTING_ORDER_FRAGMENT_TAG);
-    }
 
-    public void onClickButtonSaveColourSwatchesSettings(View view) {
-        SwatchFragment fragment = (SwatchFragment) view.getTag();
-        fragment.configureColourSwatches();
-    }
+    private Intent checkCameraHardware() {
+        PackageManager packageManager = getPackageManager();
+        if (packageManager.hasSystemFeature(PackageManager.FEATURE_CAMERA)) {
+            // this device has a camera
+            Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
 
-    @Override
-    public int getNumberOfSwatches(GradientAdapter.Vary vary) {
-        switch (vary) {
-            case HUE:
-                return mNumberOfSwatchesHue;
-            case SATURATION:
-                return mNumberOfSwatchesSaturation;
-            case VALUE:
-                return mNumberOfSwatchesValue;
-            default:
-                return 0;
+            if (packageManager.queryIntentActivities(intent, 0).isEmpty()) {
+                return null;
+            } else {
+                return intent;
+            }
+        } else {
+            // no camera on this device
+            return null;
         }
     }
 
-    @Override
-    public void setNumberOfSwatches(GradientAdapter.Vary vary, int numberOfSwatches) {
-        if (numberOfSwatches < MIN_SWATCHES) {
-            numberOfSwatches = MIN_SWATCHES;
-        } else if (numberOfSwatches > MAX_SWATCHES) {
-            numberOfSwatches = MAX_SWATCHES;
+    private void launchColourExplorer() {
+        Intent intent = new Intent(this, ColourExplorerActivity.class);
+        startActivity(intent);
+    }
+
+    public void onClickButtonColourExplorer(View view) {
+        launchColourExplorer();
+    }
+
+    public void onClickButtonIdentifyColour(View view) {
+        Intent intent = checkCameraHardware();
+
+        if (intent == null) {
+            Toast.makeText(getApplicationContext(), getString(R.string.no_camera_hardware), Toast.LENGTH_SHORT).show();
+            return;
         }
 
-        switch (vary) {
-            case HUE:
-                mNumberOfSwatchesHue = numberOfSwatches;
-                break;
-            case SATURATION:
-                mNumberOfSwatchesSaturation = numberOfSwatches;
-                break;
-            case VALUE:
-                mNumberOfSwatchesValue = numberOfSwatches;
-                break;
-        }
+        // start the image capture Intent
+        startActivityForResult(intent, CAPTURE_IMAGE_ACTIVITY_REQUEST_CODE);
+
     }
 
-    @Override
-    public int getMaxNumberOfSwatches(GradientAdapter.Vary vary) {
-        if (vary == GradientAdapter.Vary.HUE) {
-            return MAX_SWATCHES_H;
-        }
-        return MAX_SWATCHES;
-    }
 
-    @Override
-    public int getMinNumberOfSwatches(GradientAdapter.Vary vary) {
-        if (vary == GradientAdapter.Vary.HUE) {
-            return MIN_SWATCHES_H;
-        }
-        return MIN_SWATCHES;
-    }
-
-    @Override
-    public float getCentralHue() {
-        return mFirstCentralHue;
-    }
-
-    @Override
-    public void setCentralHue(float centralHue) {
-        mFirstCentralHue = centralHue % 360.0f;
-        System.out.println("centralHue:" + centralHue + " -==> " + mFirstCentralHue);
-    }
 }

@@ -1,7 +1,6 @@
 package ar.com.post.termproject.db;
 
 import android.content.ContentProvider;
-import android.content.ContentResolver;
 import android.content.ContentValues;
 import android.content.UriMatcher;
 import android.database.Cursor;
@@ -15,8 +14,6 @@ import java.util.HashSet;
 
 public class ColourContentProvider extends ContentProvider {
     static public final String AUTHORITY = "ar.com.post.termproject.colourcontentprovider";
-    static public final String CONTENT_TYPE = ContentResolver.CURSOR_DIR_BASE_TYPE + "/colours";
-    static public final String CONTENT_TYPE_COLOUR = ContentResolver.CURSOR_DIR_BASE_TYPE + "/colour";
     static public final String BASE_PATH = "colour";
     static private final UriMatcher sUriMatcher = new UriMatcher(UriMatcher.NO_MATCH);
     static private final int COLOUR_ID = 1;

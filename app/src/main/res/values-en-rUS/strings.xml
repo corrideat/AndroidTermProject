@@ -5,7 +5,7 @@
     <string name="no_results">No results.</string>
     <string name="no_exact_match_found">No exact match found.</string>
     <string name="exact_match_found">Exact match found.</string>
-    <string name="not_found">Colour not found.</string>
+    <string name="not_found">Color not found.</string>
     <string name="DYNAMIC">THIS TEXT SHOULD NEVER APPEAR</string>
     <string name="zwsp">​</string>
     <string name="hsv">HSV: </string>
@@ -15,7 +15,7 @@
     <string name="value_range" formatted="false">V: %.2f–%.2f</string>
     <string name="separator">, </string>
     <string name="configure_sorting_order">Configure sorting order</string>
-    <string name="configure_colour_swatches">Configure colour swatches</string>
+    <string name="configure_colour_swatches">Configure color swatches</string>
     <string name="sort_hsv">Hue, Saturation, Value</string>
     <string name="sort_hvs">Hue, Value, Saturation</string>
     <string name="sort_shv">Saturation, Hue, Value</string>
@@ -25,20 +25,16 @@
     <string name="save">Save</string>
     <string name="cancel">Cancel</string>
     <string name="no_camera_hardware">No camera hardware or camera application.</string>
-    <string name="shot_cancelled">Picture shot cancelled.</string>
-    <string name="shot_error">Error taking picture. Please try again.</string>
-    <string name="title_activity_main">Main Activity</string>
+    <string name="shot_cancelled">Photo shot canceled.</string>
+    <string name="shot_error">Error taking photo. Please try again.</string>
     <string name="number_of_swatches">Number of Swatches:</string>
     <string name="central_hue">Central Hue:</string>
-    <string name="action_settings">Settings</string>
     <string name="operation_mode">Operation Mode</string>
-    <string name="colour_explorer">Colour Explorer</string>
-    <string name="identify_colour">Identify a colour</string>
-    <string name="title_activity_colour_finder">ColourFinderActivity</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="colour_explorer">Color Explorer</string>
+    <string name="identify_colour">Identify a color</string>
     <string name="exact_match">Exact Match</string>
-    <string name="similar_colours">Similar Colours</string>
-    <string name="picture_preview">Picture Preview</string>
+    <string name="similar_colours">Similar Colors</string>
+    <string name="picture_preview">Photo Preview</string>
     <string name="loading_content">Loading…</string>
 
 </resources>
